@@ -1,0 +1,87 @@
+2018-03-19 19:49:04.523 ERROR [t3] - Begin 
+2018-03-19 19:49:04.523 ERROR [t2] - Begin 
+2018-03-19 19:49:04.523 ERROR [t1] - Begin 
+2018-03-19 19:49:04.526 ERROR [t2] - loadProperties() start 
+2018-03-19 19:49:04.526 ERROR [t2] - loadProperties(): {application_name=Fun Application} hc: -18720779 
+2018-03-19 19:49:04.527 ERROR [t2] - properties: {application_name=Fun Application}-18720779 
+2018-03-19 19:49:04.527 ERROR [t3] - properties: {application_name=Fun Application}-18720779 
+2018-03-19 19:49:04.527 ERROR [t2] - End 
+2018-03-19 19:49:04.527 ERROR [t3] - End 
+2018-03-19 19:49:04.527 ERROR [t1] - properties: {application_name=Fun Application}-18720779 
+2018-03-19 19:49:04.527 ERROR [t1] - End 
+2018-03-19 19:49:05.935 ERROR [nt4] - Begin 
+2018-03-19 19:49:05.935 ERROR [main] - Fun Application 
+2018-03-19 19:49:05.936 ERROR [nt4] - properties: {application_name=Fun Application}-18720779 
+2018-03-19 19:49:05.936 ERROR [nt4] - End 
+2018-03-19 19:49:54.409 INFO  [t1] - Begin 
+2018-03-19 19:49:54.409 INFO  [t3] - Begin 
+2018-03-19 19:49:54.409 INFO  [t2] - Begin 
+2018-03-19 19:49:54.413 INFO  [t2] - loadProperties() start 
+2018-03-19 19:49:54.413 INFO  [t2] - loadProperties(): {application_name=Fun Application} hc: -18720779 
+2018-03-19 19:49:54.413 INFO  [t2] - properties: {application_name=Fun Application}-18720779 
+2018-03-19 19:49:54.413 INFO  [t1] - properties: {application_name=Fun Application}-18720779 
+2018-03-19 19:49:54.413 INFO  [t2] - End 
+2018-03-19 19:49:54.413 INFO  [t1] - End 
+2018-03-19 19:49:54.413 INFO  [t3] - properties: {application_name=Fun Application}-18720779 
+2018-03-19 19:49:54.414 INFO  [t3] - End 
+2018-03-19 19:49:55.785 INFO  [nt4] - Begin 
+2018-03-19 19:49:55.785 INFO  [main] - Fun Application 
+2018-03-19 19:49:55.786 INFO  [nt4] - properties: {application_name=Fun Application}-18720779 
+2018-03-19 19:49:55.787 INFO  [nt4] - End 
+2018-03-19 19:50:24.912 INFO  [t2] - Begin 
+2018-03-19 19:50:24.912 INFO  [t1] - Begin 
+2018-03-19 19:50:24.912 INFO  [t3] - Begin 
+2018-03-19 19:50:24.915 INFO  [t2] - loadProperties() start 
+2018-03-19 19:50:24.915 INFO  [t2] - loadProperties(): {application_name=Fun Application} hc: -18720779 
+2018-03-19 19:50:24.915 INFO  [t2] - properties: {application_name=Fun Application}-18720779 
+2018-03-19 19:50:24.915 INFO  [t1] - properties: {application_name=Fun Application}-18720779 
+2018-03-19 19:50:24.916 INFO  [t2] - End 
+2018-03-19 19:50:24.915 INFO  [t3] - properties: {application_name=Fun Application}-18720779 
+2018-03-19 19:50:24.916 INFO  [t1] - End 
+2018-03-19 19:50:24.916 INFO  [t3] - End 
+2018-03-19 19:50:26.010 INFO  [nt4] - Begin 
+2018-03-19 19:50:26.010 INFO  [main] - Fun Application 
+2018-03-19 19:50:26.012 INFO  [nt4] - properties: {application_name=Fun Application}-18720779 
+2018-03-19 19:50:26.013 INFO  [nt4] - End 
+2018-03-19 19:51:22.220 INFO  [t3] - Begin 
+2018-03-19 19:51:22.220 INFO  [t1] - Begin 
+2018-03-19 19:51:22.220 INFO  [t2] - Begin 
+2018-03-19 19:51:22.223 INFO  [t3] - loadProperties() start 
+2018-03-19 19:51:22.223 INFO  [t3] - loadProperties(): {application_name=Fun Application} hc: -18720779 
+2018-03-19 19:51:22.223 INFO  [t3] - properties: {application_name=Fun Application}-18720779 
+2018-03-19 19:51:22.223 INFO  [t1] - loadProperties() start 
+2018-03-19 19:51:22.223 INFO  [t3] - End 
+2018-03-19 19:51:22.224 INFO  [t1] - loadProperties(): {application_name=Fun Application} hc: -18720779 
+2018-03-19 19:51:22.224 INFO  [t2] - loadProperties() start 
+2018-03-19 19:51:22.224 INFO  [t1] - properties: {application_name=Fun Application}-18720779 
+2018-03-19 19:51:22.224 INFO  [t2] - loadProperties(): {application_name=Fun Application} hc: -18720779 
+2018-03-19 19:51:22.224 INFO  [t1] - End 
+2018-03-19 19:51:22.224 INFO  [t2] - properties: {application_name=Fun Application}-18720779 
+2018-03-19 19:51:22.224 INFO  [t2] - End 
+2018-03-19 19:51:23.601 INFO  [nt4] - Begin 
+2018-03-19 19:51:23.601 INFO  [main] - Fun Application 
+2018-03-19 19:51:23.603 INFO  [nt4] - properties: {application_name=Fun Application}-18720779 
+2018-03-19 19:51:23.603 INFO  [nt4] - End 
+2018-03-19 19:54:31.963 INFO  [t1] - Begin 
+2018-03-19 19:54:31.963 INFO  [t3] - Begin 
+2018-03-19 19:54:31.963 INFO  [t2] - Begin 
+2018-03-19 19:54:31.967 INFO  [t2] - loadProperties() start 
+2018-03-19 19:54:31.967 INFO  [t2] - loadProperties(): {application_name=Fun Application1521503671967} hc: 1068131466 
+2018-03-19 19:54:31.967 INFO  [t2] - properties: {application_name=Fun Application1521503671967}1068131466 
+2018-03-19 19:54:31.967 INFO  [t3] - properties: {application_name=Fun Application1521503671967}1068131466 
+2018-03-19 19:54:31.967 INFO  [t1] - properties: {application_name=Fun Application1521503671967}1068131466 
+2018-03-19 19:54:31.967 INFO  [t2] - End 
+2018-03-19 19:54:31.967 INFO  [t1] - End 
+2018-03-19 19:54:31.968 INFO  [t3] - End 
+2018-03-19 19:54:33.130 INFO  [nt4] - Begin 
+2018-03-19 19:54:33.131 INFO  [main] - Fun Application1521503671967 
+2018-03-19 19:54:33.132 INFO  [ExampleCacheLoadThread] - Begin 
+2018-03-19 19:54:33.132 INFO  [nt4] - properties: {application_name=Fun Application1521503671967}1068131466 
+2018-03-19 19:54:33.133 INFO  [nt4] - End 
+2018-03-19 19:54:33.133 INFO  [ExampleCacheLoadThread] - loadProperties() start 
+2018-03-19 19:54:33.133 INFO  [ExampleCacheLoadThread] - loadProperties(): {application_name=Fun Application1521503673133} hc: 1068314367 
+2018-03-19 19:54:33.134 INFO  [ExampleCacheLoadThread] - End 
+2018-03-19 19:54:33.133 INFO  [ExampleCacheLoadThread] - Begin 
+2018-03-19 19:54:33.135 INFO  [ExampleCacheLoadThread] - loadProperties() start 
+2018-03-19 19:54:33.135 INFO  [ExampleCacheLoadThread] - loadProperties(): {application_name=Fun Application1521503673135} hc: 1068314365 
+2018-03-19 19:54:33.136 INFO  [ExampleCacheLoadThread] - End 
