@@ -4,18 +4,18 @@ import common.Logger;
 
 public class ExampleCacheLoadThread extends Thread {
 	
-	public ExampleCacheLoadThread(ExampleCache exampleCache) {
+	public ExampleCacheLoadThread(PropertiesCache exampleCache) {
 		this.exampleCache = exampleCache;
 		setName(this.getClass().getSimpleName());
 	}
 	
-	private ExampleCache exampleCache;
+	private PropertiesCache exampleCache;
 	
 	public void run() {
-		Logger.log("Begin");
-		exampleCache.loadProperties();
+		Logger.logDebug("Begin");
+		exampleCache.load();
 //		Logger.log("properties: " + exampleCache.getProperties().toString() + exampleCache.getProperties().hashCode());
-		Logger.log("End");
+		Logger.logDebug("End");
 	}
 
 }

@@ -7,10 +7,10 @@ import common.Logger;
 public class ExampleThread extends Thread {
 
 	public void run() {
-		Logger.log("Begin");
-		HashMap<String, String> properties = ExampleCache.getInstance().getProperties();
-		Logger.log("properties: " + properties.toString() + properties.hashCode());
-		Logger.log("End");
+		Logger.logDebug("Begin");
+		HashMap<String, String> properties = PropertiesCache.getInstance().getData(60);
+		Logger.logDebug("properties: " + properties.toString() + properties.hashCode());
+		Logger.logDebug("End");
 	}
 	
 }

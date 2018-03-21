@@ -85,3 +85,477 @@
 2018-03-19 19:54:33.135 INFO  [ExampleCacheLoadThread] - loadProperties() start 
 2018-03-19 19:54:33.135 INFO  [ExampleCacheLoadThread] - loadProperties(): {application_name=Fun Application1521503673135} hc: 1068314365 
 2018-03-19 19:54:33.136 INFO  [ExampleCacheLoadThread] - End 
+2018-03-19 20:10:46.544 INFO  [t2] - Begin 
+2018-03-19 20:10:46.544 INFO  [t3] - Begin 
+2018-03-19 20:10:46.544 INFO  [t1] - Begin 
+2018-03-19 20:10:46.547 INFO  [t3] - loadProperties() start 
+2018-03-19 20:10:46.548 INFO  [t3] - loadProperties(): {application_name=Fun Application1521504646547} hc: 1953009661 
+2018-03-19 20:10:46.548 INFO  [t2] - properties: {application_name=Fun Application1521504646547}1953009661 
+2018-03-19 20:10:46.548 INFO  [t1] - properties: {application_name=Fun Application1521504646547}1953009661 
+2018-03-19 20:10:46.548 INFO  [t2] - End 
+2018-03-19 20:10:46.548 INFO  [t1] - End 
+2018-03-19 20:10:46.548 INFO  [t3] - properties: {application_name=Fun Application1521504646547}1953009661 
+2018-03-19 20:10:46.548 INFO  [t3] - End 
+2018-03-19 20:10:47.741 INFO  [main] - Fun Application1521504646547 
+2018-03-19 20:10:47.741 INFO  [nt4] - Begin 
+2018-03-19 20:10:47.743 INFO  [nt4] - properties: {application_name=Fun Application1521504646547}1953009661 
+2018-03-19 20:10:47.744 INFO  [nt4] - End 
+2018-03-19 20:12:09.374 INFO  [t1] - Begin 
+2018-03-19 20:12:09.374 INFO  [t2] - Begin 
+2018-03-19 20:12:09.374 INFO  [t3] - Begin 
+2018-03-19 20:12:09.377 INFO  [t3] - loadProperties() start 
+2018-03-19 20:12:09.377 INFO  [t3] - loadProperties(): {application_name=Fun Application1521504729377} hc: 1978830694 
+2018-03-19 20:12:09.377 INFO  [t3] - properties: {application_name=Fun Application1521504729377}1978830694 
+2018-03-19 20:12:09.377 INFO  [t2] - properties: {application_name=Fun Application1521504729377}1978830694 
+2018-03-19 20:12:09.377 INFO  [t1] - properties: {application_name=Fun Application1521504729377}1978830694 
+2018-03-19 20:12:09.377 INFO  [t3] - End 
+2018-03-19 20:12:09.377 INFO  [t1] - End 
+2018-03-19 20:12:09.378 INFO  [t2] - End 
+2018-03-19 20:12:10.744 INFO  [nt4] - Begin 
+2018-03-19 20:12:10.746 INFO  [main] - Fun Application1521504729377 
+2018-03-19 20:12:10.746 INFO  [ExampleCacheLoadThread] - Begin 
+2018-03-19 20:12:10.747 INFO  [ExampleCacheLoadThread] - loadProperties() start 
+2018-03-19 20:12:10.747 INFO  [ExampleCacheLoadThread] - Begin 
+2018-03-19 20:12:10.748 INFO  [ExampleCacheLoadThread] - loadProperties(): {application_name=Fun Application1521504730747} hc: 1980538455 
+2018-03-19 20:12:10.747 INFO  [nt4] - properties: {application_name=Fun Application1521504729377}1978830694 
+2018-03-19 20:12:10.748 INFO  [ExampleCacheLoadThread] - End 
+2018-03-19 20:12:10.748 INFO  [ExampleCacheLoadThread] - loadProperties() start 
+2018-03-19 20:12:10.748 INFO  [nt4] - End 
+2018-03-19 20:12:10.749 INFO  [ExampleCacheLoadThread] - loadProperties(): {application_name=Fun Application1521504730748} hc: 1980538452 
+2018-03-19 20:12:10.749 INFO  [ExampleCacheLoadThread] - End 
+2018-03-19 20:13:25.826 INFO  [t3] - Begin 
+2018-03-19 20:13:25.826 INFO  [t2] - Begin 
+2018-03-19 20:13:25.826 INFO  [t1] - Begin 
+2018-03-19 20:13:25.830 INFO  [t3] - loadProperties() start 
+2018-03-19 20:13:25.830 INFO  [t3] - loadProperties(): {application_name=Fun Application1521504805830} hc: 2006677957 
+2018-03-19 20:13:25.830 INFO  [t3] - properties: {application_name=Fun Application1521504805830}2006677957 
+2018-03-19 20:13:25.830 INFO  [t2] - properties: {application_name=Fun Application1521504805830}2006677957 
+2018-03-19 20:13:25.830 INFO  [t3] - End 
+2018-03-19 20:13:25.830 INFO  [t2] - End 
+2018-03-19 20:13:25.831 INFO  [t1] - properties: {application_name=Fun Application1521504805830}2006677957 
+2018-03-19 20:13:25.831 INFO  [t1] - End 
+2018-03-19 20:13:26.991 INFO  [nt4] - Begin 
+2018-03-19 20:13:26.991 INFO  [main] - Fun Application1521504805830 
+2018-03-19 20:13:26.993 INFO  [nt4] - properties: {application_name=Fun Application1521504805830}2006677957 
+2018-03-19 20:13:26.993 INFO  [nt4] - End 
+2018-03-20 19:28:08.416 DEBUG [t1] - Begin 
+2018-03-20 19:28:08.415 DEBUG [t3] - Begin 
+2018-03-20 19:28:08.415 DEBUG [t2] - Begin 
+2018-03-20 19:28:08.419 DEBUG [t1] - load() begin 
+2018-03-20 19:28:08.419 DEBUG [t1] - isLoadInProgress: false 
+2018-03-20 19:28:08.419 DEBUG [t1] - isLoadInProgress: false 
+2018-03-20 19:28:08.420 DEBUG [t1] - load() end 
+2018-03-20 19:28:08.420 DEBUG [t1] - properties: {application_name=Fun Application1521588488419}-2082835119 
+2018-03-20 19:28:08.420 DEBUG [t2] - properties: {application_name=Fun Application1521588488419}-2082835119 
+2018-03-20 19:28:08.420 DEBUG [t1] - End 
+2018-03-20 19:28:08.420 DEBUG [t2] - End 
+2018-03-20 19:28:08.420 DEBUG [t3] - properties: {application_name=Fun Application1521588488419}-2082835119 
+2018-03-20 19:28:08.420 DEBUG [t3] - End 
+2018-03-20 19:28:09.525 DEBUG [nt4] - Begin 
+2018-03-20 19:28:09.525 DEBUG [main] - Fun Application1521588488419 
+2018-03-20 19:28:09.527 DEBUG [nt4] - properties: {application_name=Fun Application1521588488419}-2082835119 
+2018-03-20 19:28:09.527 DEBUG [nt4] - End 
+2018-03-20 19:37:38.558 DEBUG [t3] - Begin 
+2018-03-20 19:37:38.559 DEBUG [t1] - Begin 
+2018-03-20 19:37:38.558 DEBUG [t2] - Begin 
+2018-03-20 19:37:38.562 DEBUG [t2] - load() begin 
+2018-03-20 19:37:38.562 DEBUG [t2] - isLoadInProgress: false 
+2018-03-20 19:37:38.562 DEBUG [t2] - isLoadInProgress: false 
+2018-03-20 19:37:38.562 DEBUG [t2] - load() end 
+2018-03-20 19:37:38.562 DEBUG [t2] - properties: {application_name=Fun Application1521589058562}-1313534984 
+2018-03-20 19:37:38.563 DEBUG [t2] - End 
+2018-03-20 19:37:38.563 DEBUG [t3] - properties: {application_name=Fun Application1521589058562}-1313534984 
+2018-03-20 19:37:38.563 DEBUG [t3] - End 
+2018-03-20 19:37:38.563 DEBUG [t1] - properties: {application_name=Fun Application1521589058562}-1313534984 
+2018-03-20 19:37:38.563 DEBUG [t1] - End 
+2018-03-20 19:37:38.924 DEBUG [nt4] - Begin 
+2018-03-20 19:37:38.924 DEBUG [main] - Fun Application1521589058562 
+2018-03-20 19:37:38.926 DEBUG [nt4] - properties: {application_name=Fun Application1521589058562}-1313534984 
+2018-03-20 19:37:38.926 DEBUG [nt4] - End 
+2018-03-20 19:40:01.703 DEBUG [t3] - Begin 
+2018-03-20 19:40:01.703 DEBUG [t1] - Begin 
+2018-03-20 19:40:01.703 DEBUG [t2] - Begin 
+2018-03-20 19:40:01.706 DEBUG [t3] - load() begin 
+2018-03-20 19:40:01.706 DEBUG [t3] - isLoadInProgress: false 
+2018-03-20 19:40:01.706 DEBUG [t3] - isLoadInProgress: false 
+2018-03-20 19:40:01.707 DEBUG [t3] - load() end 
+2018-03-20 19:40:01.707 DEBUG [t3] - properties: {application_name=Fun Application1521589201707}-1261101099 
+2018-03-20 19:40:01.707 DEBUG [t2] - properties: {application_name=Fun Application1521589201707}-1261101099 
+2018-03-20 19:40:01.707 DEBUG [t3] - End 
+2018-03-20 19:40:01.707 DEBUG [t2] - End 
+2018-03-20 19:40:01.707 DEBUG [t1] - properties: {application_name=Fun Application1521589201707}-1261101099 
+2018-03-20 19:40:01.708 DEBUG [t1] - End 
+2018-03-20 19:40:02.827 DEBUG [nt5] - Begin 
+2018-03-20 19:40:02.827 DEBUG [main] - Fun Application1521589201707 
+2018-03-20 19:40:02.827 DEBUG [nt6] - Begin 
+2018-03-20 19:40:02.828 DEBUG [nt5] - properties: {application_name=Fun Application1521589201707}-1261101099 
+2018-03-20 19:40:02.826 DEBUG [nt4] - Begin 
+2018-03-20 19:40:02.828 DEBUG [nt5] - End 
+2018-03-20 19:40:02.826 DEBUG [nt3] - Begin 
+2018-03-20 19:40:02.829 DEBUG [nt6] - properties: {application_name=Fun Application1521589201707}-1261101099 
+2018-03-20 19:40:02.829 DEBUG [nt4] - properties: {application_name=Fun Application1521589201707}-1261101099 
+2018-03-20 19:40:02.829 DEBUG [nt6] - End 
+2018-03-20 19:40:02.830 DEBUG [nt3] - properties: {application_name=Fun Application1521589201707}-1261101099 
+2018-03-20 19:40:02.830 DEBUG [nt4] - End 
+2018-03-20 19:40:02.830 DEBUG [nt3] - End 
+2018-03-20 19:50:14.911 DEBUG [t2] - Begin 
+2018-03-20 19:50:14.912 DEBUG [t1] - Begin 
+2018-03-20 19:50:14.911 DEBUG [t3] - Begin 
+2018-03-20 19:50:14.915 DEBUG [t1] - load() begin 
+2018-03-20 19:50:14.916 DEBUG [t1] - isLoadInProgress: false 
+2018-03-20 19:50:14.916 DEBUG [t1] - isLoadInProgress: false 
+2018-03-20 19:50:14.916 DEBUG [t1] - load() end 
+2018-03-20 19:50:14.916 DEBUG [t2] - properties: {application_name=Fun Application1521589814916}-1088311331 
+2018-03-20 19:50:14.916 DEBUG [t1] - properties: {application_name=Fun Application1521589814916}-1088311331 
+2018-03-20 19:50:14.916 DEBUG [t2] - End 
+2018-03-20 19:50:14.917 DEBUG [t1] - End 
+2018-03-20 19:50:14.916 DEBUG [t3] - properties: {application_name=Fun Application1521589814916}-1088311331 
+2018-03-20 19:50:14.917 DEBUG [t3] - End 
+2018-03-20 19:50:16.081 DEBUG [nt3] - Begin 
+2018-03-20 19:50:16.081 DEBUG [nt4] - Begin 
+2018-03-20 19:50:16.081 DEBUG [nt5] - Begin 
+2018-03-20 19:50:16.082 DEBUG [nt6] - Begin 
+2018-03-20 19:50:16.082 DEBUG [main] - Fun Application1521589814916 
+2018-03-20 19:50:16.083 DEBUG [nt5] - properties: {application_name=Fun Application1521589814916}-1088311331 
+2018-03-20 19:50:16.083 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 19:50:16.083 DEBUG [nt5] - End 
+2018-03-20 19:50:16.083 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 19:50:16.083 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:50:16.083 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:50:16.083 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 19:50:16.084 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 19:50:16.084 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 19:50:16.084 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 19:50:16.084 DEBUG [nt3] - properties: {application_name=Fun Application1521589816084}-1088391287 
+2018-03-20 19:50:16.084 DEBUG [nt3] - End 
+2018-03-20 19:50:16.084 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:50:16.084 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:50:16.084 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 19:50:16.085 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 19:50:16.085 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 19:50:16.085 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 19:50:16.085 DEBUG [nt4] - properties: {application_name=Fun Application1521589816084}-1088391287 
+2018-03-20 19:50:16.085 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:50:16.085 DEBUG [nt4] - End 
+2018-03-20 19:50:16.085 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:50:16.085 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 19:50:16.085 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 19:50:16.085 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 19:50:16.086 DEBUG [nt6] - properties: {application_name=Fun Application1521589816085}-1088391282 
+2018-03-20 19:50:16.086 DEBUG [nt6] - End 
+2018-03-20 19:50:16.086 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 19:50:16.086 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 19:50:16.086 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:50:16.086 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 19:50:16.087 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:50:16.087 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:50:16.087 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 19:50:16.087 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:50:16.087 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 19:50:16.087 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 19:50:16.087 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 19:52:40.317 DEBUG [t2] - Begin 
+2018-03-20 19:52:40.317 DEBUG [t1] - Begin 
+2018-03-20 19:52:40.317 DEBUG [t3] - Begin 
+2018-03-20 19:52:40.320 DEBUG [t2] - load() begin 
+2018-03-20 19:52:40.320 DEBUG [t2] - isLoadInProgress: false 
+2018-03-20 19:52:40.320 DEBUG [t2] - isLoadInProgress: false 
+2018-03-20 19:52:40.320 DEBUG [t2] - load() end 
+2018-03-20 19:52:40.321 DEBUG [t2] - properties: {application_name=Fun Application1521589960320}-1054140904 
+2018-03-20 19:52:40.321 DEBUG [t3] - properties: {application_name=Fun Application1521589960320}-1054140904 
+2018-03-20 19:52:40.321 DEBUG [t2] - End 
+2018-03-20 19:52:40.321 DEBUG [t3] - End 
+2018-03-20 19:52:40.321 DEBUG [t1] - properties: {application_name=Fun Application1521589960320}-1054140904 
+2018-03-20 19:52:40.321 DEBUG [t1] - End 
+2018-03-20 19:52:41.536 DEBUG [nt4] - Begin 
+2018-03-20 19:52:41.538 DEBUG [nt4] - properties: {application_name=Fun Application1521589960320}-1054140904 
+2018-03-20 19:52:41.539 DEBUG [nt4] - End 
+2018-03-20 19:52:41.542 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 19:52:41.543 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 19:52:41.543 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:52:41.543 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:52:41.543 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 19:52:41.543 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 19:52:42.290 DEBUG [nt5] - Begin 
+2018-03-20 19:52:42.292 DEBUG [nt5] - properties: {application_name=Fun Application1521589961543}-1054109122 
+2018-03-20 19:52:42.292 DEBUG [nt5] - End 
+2018-03-20 19:52:43.046 DEBUG [nt6] - Begin 
+2018-03-20 19:52:43.050 DEBUG [nt6] - properties: {application_name=Fun Application1521589961543}-1054109122 
+2018-03-20 19:52:43.051 DEBUG [nt6] - End 
+2018-03-20 19:52:43.050 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 19:52:43.052 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 19:52:43.052 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:52:43.052 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:52:43.053 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 19:52:43.053 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 19:52:43.801 DEBUG [main] - Fun Application1521589963053 
+2018-03-20 19:59:30.591 DEBUG [t3] - Begin 
+2018-03-20 19:59:30.591 DEBUG [t1] - Begin 
+2018-03-20 19:59:30.591 DEBUG [t2] - Begin 
+2018-03-20 19:59:30.594 DEBUG [t3] - load() begin 
+2018-03-20 19:59:30.594 DEBUG [t3] - isLoadInProgress: false 
+2018-03-20 19:59:30.595 DEBUG [t3] - isLoadInProgress: false 
+2018-03-20 19:59:30.595 DEBUG [t3] - load() end 
+2018-03-20 19:59:30.595 DEBUG [t3] - properties: {application_name=Fun Application1521590370595}1119173029 
+2018-03-20 19:59:30.595 DEBUG [t2] - properties: {application_name=Fun Application1521590370595}1119173029 
+2018-03-20 19:59:30.595 DEBUG [t3] - End 
+2018-03-20 19:59:30.595 DEBUG [t2] - End 
+2018-03-20 19:59:30.595 DEBUG [t1] - properties: {application_name=Fun Application1521590370595}1119173029 
+2018-03-20 19:59:30.596 DEBUG [t1] - End 
+2018-03-20 19:59:31.755 DEBUG [nt4] - Begin 
+2018-03-20 19:59:31.757 DEBUG [nt4] - isExpired starting thread 
+2018-03-20 19:59:31.758 DEBUG [nt4] - properties: {application_name=Fun Application1521590370595}1119173029 
+2018-03-20 19:59:31.758 DEBUG [nt4] - End 
+2018-03-20 19:59:31.758 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 19:59:31.759 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 19:59:31.759 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:59:31.760 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:59:31.760 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 19:59:31.760 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 19:59:32.506 DEBUG [nt5] - Begin 
+2018-03-20 19:59:32.507 DEBUG [nt5] - properties: {application_name=Fun Application1521590371760}1119204644 
+2018-03-20 19:59:32.508 DEBUG [nt5] - End 
+2018-03-20 19:59:33.260 DEBUG [nt6] - Begin 
+2018-03-20 19:59:33.261 DEBUG [nt6] - isExpired starting thread 
+2018-03-20 19:59:33.261 DEBUG [nt6] - properties: {application_name=Fun Application1521590371760}1119204644 
+2018-03-20 19:59:33.262 DEBUG [nt6] - End 
+2018-03-20 19:59:33.262 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 19:59:33.263 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 19:59:33.263 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:59:33.263 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 19:59:33.264 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 19:59:33.264 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 19:59:34.013 DEBUG [main] - Fun Application1521590373264 
+2018-03-20 20:02:14.852 DEBUG [t2] - Begin 
+2018-03-20 20:02:14.853 DEBUG [t1] - Begin 
+2018-03-20 20:02:14.852 DEBUG [t3] - Begin 
+2018-03-20 20:02:14.856 DEBUG [t2] - load() begin 
+2018-03-20 20:02:14.857 DEBUG [t2] - isLoadInProgress: false 
+2018-03-20 20:02:14.857 DEBUG [t2] - isLoadInProgress: false 
+2018-03-20 20:02:14.857 DEBUG [t2] - load() end 
+2018-03-20 20:02:14.857 DEBUG [t2] - properties: {application_name=Fun Application1521590534857}1172728100 
+2018-03-20 20:02:14.857 DEBUG [t3] - properties: {application_name=Fun Application1521590534857}1172728100 
+2018-03-20 20:02:14.857 DEBUG [t2] - End 
+2018-03-20 20:02:14.857 DEBUG [t3] - End 
+2018-03-20 20:02:14.858 DEBUG [t1] - properties: {application_name=Fun Application1521590534857}1172728100 
+2018-03-20 20:02:14.858 DEBUG [t1] - End 
+2018-03-20 20:02:16.096 DEBUG [nt4] - Begin 
+2018-03-20 20:02:16.098 DEBUG [nt4] - isExpired starting thread 
+2018-03-20 20:02:16.099 DEBUG [nt4] - properties: {application_name=Fun Application1521590534857}1172728100 
+2018-03-20 20:02:16.099 DEBUG [nt4] - End 
+2018-03-20 20:02:16.099 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 20:02:16.100 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 20:02:16.100 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 20:02:16.101 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 20:02:16.101 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 20:02:16.101 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 20:02:16.847 DEBUG [nt5] - Begin 
+2018-03-20 20:02:16.848 DEBUG [nt5] - properties: {application_name=Fun Application1521590536101}1173960462 
+2018-03-20 20:02:16.849 DEBUG [nt5] - End 
+2018-03-20 20:02:17.603 DEBUG [nt6] - Begin 
+2018-03-20 20:02:17.604 DEBUG [nt6] - isExpired starting thread 
+2018-03-20 20:02:17.605 DEBUG [nt6] - properties: {application_name=Fun Application1521590536101}1173960462 
+2018-03-20 20:02:17.606 DEBUG [nt6] - End 
+2018-03-20 20:02:17.606 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 20:02:17.607 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 20:02:17.607 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 20:02:17.608 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 20:02:17.608 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 20:02:17.608 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 20:02:18.358 DEBUG [main] - Fun Application1521590537608 
+2018-03-20 20:03:44.411 DEBUG [t2] - Begin 
+2018-03-20 20:03:44.412 DEBUG [t1] - Begin 
+2018-03-20 20:03:44.411 DEBUG [t3] - Begin 
+2018-03-20 20:03:44.415 DEBUG [t3] - load() begin 
+2018-03-20 20:03:44.415 DEBUG [t3] - isLoadInProgress: false 
+2018-03-20 20:03:44.415 DEBUG [t3] - isLoadInProgress: false 
+2018-03-20 20:03:45.785 DEBUG [nt4] - Begin 
+2018-03-20 20:03:46.540 DEBUG [nt5] - Begin 
+2018-03-20 20:03:47.291 DEBUG [nt6] - Begin 
+2018-03-20 20:03:49.421 DEBUG [t3] - load() end 
+2018-03-20 20:03:49.422 DEBUG [t3] - properties: {application_name=Fun Application1521590624415}1201609408 
+2018-03-20 20:03:49.422 DEBUG [main] - Fun Application1521590624415 
+2018-03-20 20:03:49.422 DEBUG [nt6] - properties: {application_name=Fun Application1521590624415}1201609408 
+2018-03-20 20:03:49.423 DEBUG [t3] - End 
+2018-03-20 20:03:49.423 DEBUG [nt6] - End 
+2018-03-20 20:03:49.424 DEBUG [nt5] - properties: {application_name=Fun Application1521590624415}1201609408 
+2018-03-20 20:03:49.424 DEBUG [nt4] - properties: {application_name=Fun Application1521590624415}1201609408 
+2018-03-20 20:03:49.424 DEBUG [nt5] - End 
+2018-03-20 20:03:49.424 DEBUG [nt4] - End 
+2018-03-20 20:03:49.424 DEBUG [t1] - properties: {application_name=Fun Application1521590624415}1201609408 
+2018-03-20 20:03:49.425 DEBUG [t2] - properties: {application_name=Fun Application1521590624415}1201609408 
+2018-03-20 20:03:49.425 DEBUG [t1] - End 
+2018-03-20 20:03:49.425 DEBUG [t2] - End 
+2018-03-20 20:05:49.323 DEBUG [t2] - Begin 
+2018-03-20 20:05:49.323 DEBUG [t3] - Begin 
+2018-03-20 20:05:49.324 DEBUG [t1] - Begin 
+2018-03-20 20:05:49.327 DEBUG [t3] - load() begin 
+2018-03-20 20:05:49.327 DEBUG [t3] - isLoadInProgress: false 
+2018-03-20 20:05:50.541 DEBUG [nt4] - Begin 
+2018-03-20 20:05:51.292 DEBUG [nt5] - Begin 
+2018-03-20 20:05:52.047 DEBUG [nt6] - Begin 
+2018-03-20 20:05:54.333 DEBUG [t3] - load() end 
+2018-03-20 20:05:54.333 DEBUG [nt5] - properties: {application_name=Fun Application1521590749327}1231053996 
+2018-03-20 20:05:54.334 DEBUG [t3] - properties: {application_name=Fun Application1521590749327}1231053996 
+2018-03-20 20:05:54.333 DEBUG [main] - Fun Application1521590749327 
+2018-03-20 20:05:54.334 DEBUG [t3] - End 
+2018-03-20 20:05:54.334 DEBUG [nt4] - properties: {application_name=Fun Application1521590749327}1231053996 
+2018-03-20 20:05:54.335 DEBUG [t2] - properties: {application_name=Fun Application1521590749327}1231053996 
+2018-03-20 20:05:54.335 DEBUG [nt4] - End 
+2018-03-20 20:05:54.335 DEBUG [t2] - End 
+2018-03-20 20:05:54.334 DEBUG [nt6] - properties: {application_name=Fun Application1521590749327}1231053996 
+2018-03-20 20:05:54.334 DEBUG [nt5] - End 
+2018-03-20 20:05:54.334 DEBUG [t1] - properties: {application_name=Fun Application1521590749327}1231053996 
+2018-03-20 20:05:54.335 DEBUG [nt6] - End 
+2018-03-20 20:05:54.336 DEBUG [t1] - End 
+2018-03-20 20:07:36.234 DEBUG [t3] - Begin 
+2018-03-20 20:07:36.234 DEBUG [t1] - Begin 
+2018-03-20 20:07:36.234 DEBUG [t2] - Begin 
+2018-03-20 20:07:36.238 DEBUG [t2] - load() begin 
+2018-03-20 20:07:36.238 DEBUG [t2] - isLoadInProgress: false 
+2018-03-20 20:07:41.243 DEBUG [t2] - load() end 
+2018-03-20 20:07:41.243 DEBUG [t3] - properties: {application_name=Fun Application1521590856238}1260647426 
+2018-03-20 20:07:41.244 DEBUG [t1] - properties: {application_name=Fun Application1521590856238}1260647426 
+2018-03-20 20:07:41.243 DEBUG [t2] - properties: {application_name=Fun Application1521590856238}1260647426 
+2018-03-20 20:07:41.244 DEBUG [t1] - End 
+2018-03-20 20:07:41.244 DEBUG [t3] - End 
+2018-03-20 20:07:41.245 DEBUG [t2] - End 
+2018-03-20 20:07:41.619 DEBUG [nt4] - Begin 
+2018-03-20 20:07:41.620 DEBUG [nt4] - properties: {application_name=Fun Application1521590856238}1260647426 
+2018-03-20 20:07:41.620 DEBUG [nt4] - End 
+2018-03-20 20:07:42.369 DEBUG [nt5] - Begin 
+2018-03-20 20:07:42.371 DEBUG [nt5] - isExpired starting thread 
+2018-03-20 20:07:42.372 DEBUG [nt5] - properties: {application_name=Fun Application1521590856238}1260647426 
+2018-03-20 20:07:42.372 DEBUG [nt5] - End 
+2018-03-20 20:07:42.372 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 20:07:42.373 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 20:07:42.373 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 20:07:43.120 DEBUG [nt6] - Begin 
+2018-03-20 20:07:43.125 DEBUG [nt6] - isExpired starting thread 
+2018-03-20 20:07:43.126 DEBUG [nt6] - properties: {application_name=Fun Application1521590856238}1260647426 
+2018-03-20 20:07:43.126 DEBUG [nt6] - End 
+2018-03-20 20:07:43.126 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 20:07:43.128 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 20:07:43.128 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 20:07:43.871 DEBUG [main] - isExpired starting thread 
+2018-03-20 20:07:43.872 DEBUG [main] - Fun Application1521590856238 
+2018-03-20 20:07:43.872 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 20:07:43.873 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 20:07:43.874 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 20:07:47.379 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 20:07:47.380 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 20:07:48.134 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 20:07:48.134 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 20:07:48.880 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 20:07:48.880 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 20:10:03.604 DEBUG [t3] - Begin 
+2018-03-20 20:10:03.604 DEBUG [t2] - Begin 
+2018-03-20 20:10:03.605 DEBUG [t1] - Begin 
+2018-03-20 20:10:03.608 DEBUG [t1] - load() begin 
+2018-03-20 20:10:03.609 DEBUG [t1] - isLoadInProgress: false 
+2018-03-20 20:10:08.615 DEBUG [t1] - load() end 
+2018-03-20 20:10:08.615 DEBUG [t1] - properties: {application_name=Fun Application1521591003609}1915463293 
+2018-03-20 20:10:08.615 DEBUG [t2] - properties: {application_name=Fun Application1521591003609}1915463293 
+2018-03-20 20:10:08.616 DEBUG [t3] - properties: {application_name=Fun Application1521591003609}1915463293 
+2018-03-20 20:10:08.616 DEBUG [t1] - End 
+2018-03-20 20:10:08.616 DEBUG [t3] - End 
+2018-03-20 20:10:08.617 DEBUG [t2] - End 
+2018-03-20 20:10:08.847 DEBUG [nt4] - Begin 
+2018-03-20 20:10:08.848 DEBUG [nt4] - properties: {application_name=Fun Application1521591003609}1915463293 
+2018-03-20 20:10:08.848 DEBUG [nt4] - End 
+2018-03-20 20:10:09.598 DEBUG [nt5] - Begin 
+2018-03-20 20:10:09.599 DEBUG [nt5] - properties: {application_name=Fun Application1521591003609}1915463293 
+2018-03-20 20:10:09.600 DEBUG [nt5] - End 
+2018-03-20 20:10:10.353 DEBUG [nt6] - Begin 
+2018-03-20 20:10:10.355 DEBUG [nt6] - isExpired starting thread 
+2018-03-20 20:10:10.356 DEBUG [nt6] - properties: {application_name=Fun Application1521591003609}1915463293 
+2018-03-20 20:10:10.356 DEBUG [nt6] - End 
+2018-03-20 20:10:10.356 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 20:10:10.357 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 20:10:10.358 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 20:10:11.109 DEBUG [main] - isExpired starting thread 
+2018-03-20 20:10:11.110 DEBUG [main] - Fun Application1521591003609 
+2018-03-20 20:10:11.110 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 20:10:11.111 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 20:10:11.111 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: true 
+2018-03-20 20:10:11.112 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 20:10:11.112 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 20:10:15.364 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 20:10:15.367 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 20:13:20.522 DEBUG [t2] - Begin 
+2018-03-20 20:13:20.522 DEBUG [t1] - Begin 
+2018-03-20 20:13:20.522 DEBUG [t3] - Begin 
+2018-03-20 20:13:20.526 DEBUG [t3] - load() begin 
+2018-03-20 20:13:20.526 DEBUG [t3] - isLoadInProgress: false 
+2018-03-20 20:13:25.529 DEBUG [t3] - load() end 
+2018-03-20 20:13:25.530 DEBUG [t1] - properties: {application_name=Fun Application1521591200526}1971582744 
+2018-03-20 20:13:25.530 DEBUG [t3] - properties: {application_name=Fun Application1521591200526}1971582744 
+2018-03-20 20:13:25.530 DEBUG [t2] - properties: {application_name=Fun Application1521591200526}1971582744 
+2018-03-20 20:13:25.530 DEBUG [t1] - End 
+2018-03-20 20:13:25.530 DEBUG [t2] - End 
+2018-03-20 20:13:25.530 DEBUG [t3] - End 
+2018-03-20 20:13:25.705 DEBUG [nt4] - Begin 
+2018-03-20 20:13:25.707 DEBUG [nt4] - properties: {application_name=Fun Application1521591200526}1971582744 
+2018-03-20 20:13:25.707 DEBUG [nt4] - End 
+2018-03-20 20:13:26.457 DEBUG [nt5] - Begin 
+2018-03-20 20:13:26.458 DEBUG [nt5] - properties: {application_name=Fun Application1521591200526}1971582744 
+2018-03-20 20:13:26.459 DEBUG [nt5] - End 
+2018-03-20 20:13:27.212 DEBUG [nt6] - Begin 
+2018-03-20 20:13:27.214 DEBUG [nt6] - isExpired starting thread 
+2018-03-20 20:13:27.215 DEBUG [nt6] - properties: {application_name=Fun Application1521591200526}1971582744 
+2018-03-20 20:13:27.215 DEBUG [nt6] - End 
+2018-03-20 20:13:27.215 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 20:13:27.216 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 20:13:27.217 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 20:13:27.966 DEBUG [main] - isExpired starting thread 
+2018-03-20 20:13:27.967 DEBUG [main] - Fun Application1521591200526 
+2018-03-20 20:13:27.968 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 20:13:27.969 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 20:13:27.969 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: true 
+2018-03-20 20:13:27.969 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 20:13:27.969 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 20:13:32.223 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 20:13:32.223 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 20:15:21.603 DEBUG [t1] - Begin 
+2018-03-20 20:15:21.604 DEBUG [t3] - Begin 
+2018-03-20 20:15:21.603 DEBUG [t2] - Begin 
+2018-03-20 20:15:21.607 DEBUG [t1] - load() begin 
+2018-03-20 20:15:21.607 DEBUG [t1] - isLoadInProgress: false 
+2018-03-20 20:15:26.613 DEBUG [t1] - load() end 
+2018-03-20 20:15:26.613 DEBUG [t3] - properties: {application_name=Fun Application1521591321607}2002089628 
+2018-03-20 20:15:26.614 DEBUG [t2] - properties: {application_name=Fun Application1521591321607}2002089628 
+2018-03-20 20:15:26.614 DEBUG [t3] - End 
+2018-03-20 20:15:26.614 DEBUG [t1] - properties: {application_name=Fun Application1521591321607}2002089628 
+2018-03-20 20:15:26.614 DEBUG [t2] - End 
+2018-03-20 20:15:26.615 DEBUG [t1] - End 
+2018-03-20 20:15:26.996 DEBUG [nt4] - Begin 
+2018-03-20 20:15:26.997 DEBUG [nt4] - properties: {application_name=Fun Application1521591321607}2002089628 
+2018-03-20 20:15:26.998 DEBUG [nt4] - End 
+2018-03-20 20:15:27.752 DEBUG [nt5] - Begin 
+2018-03-20 20:15:27.754 DEBUG [nt5] - isExpired starting thread 
+2018-03-20 20:15:27.754 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 20:15:27.755 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 20:15:27.755 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 20:15:27.816 DEBUG [nt5] - after reload properties: {application_name=Fun Application1521591321607}2002089628 
+2018-03-20 20:15:27.817 DEBUG [nt5] - properties: {application_name=Fun Application1521591321607}2002089628 
+2018-03-20 20:15:27.817 DEBUG [nt5] - End 
+2018-03-20 20:15:28.507 DEBUG [nt6] - Begin 
+2018-03-20 20:15:28.509 DEBUG [nt6] - isExpired starting thread 
+2018-03-20 20:15:28.509 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 20:15:28.510 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 20:15:28.511 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: true 
+2018-03-20 20:15:28.511 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 20:15:28.511 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 20:15:28.511 DEBUG [nt6] - after reload properties: {application_name=Fun Application1521591321607}2002089628 
+2018-03-20 20:15:28.512 DEBUG [nt6] - properties: {application_name=Fun Application1521591321607}2002089628 
+2018-03-20 20:15:28.512 DEBUG [nt6] - End 
+2018-03-20 20:15:29.260 DEBUG [main] - isExpired starting thread 
+2018-03-20 20:15:29.261 DEBUG [ExampleCacheLoadThread] - Begin 
+2018-03-20 20:15:29.262 DEBUG [ExampleCacheLoadThread] - load() begin 
+2018-03-20 20:15:29.263 DEBUG [ExampleCacheLoadThread] - isLoadInProgress: true 
+2018-03-20 20:15:29.263 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 20:15:29.263 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 20:15:29.263 DEBUG [main] - after reload properties: {application_name=Fun Application1521591321607}2002089628 
+2018-03-20 20:15:29.264 DEBUG [main] - Fun Application1521591321607 
+2018-03-20 20:15:32.761 DEBUG [ExampleCacheLoadThread] - load() end 
+2018-03-20 20:15:32.762 DEBUG [ExampleCacheLoadThread] - End 

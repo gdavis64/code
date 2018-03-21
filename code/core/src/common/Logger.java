@@ -11,7 +11,11 @@ public class Logger {
 		logger.log(level, message);
 	}
 	
-	public static void log(String message) {
+	public static void logDebug(String message) {
+		log(Level.DEBUG, message);
+	}
+	
+	public static void logInfo(String message) {
 		log(Level.INFO, message);
 	}
 	

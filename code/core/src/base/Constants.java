@@ -1,8 +1,12 @@
 package base;
 
+import java.util.Calendar;
+
 public class Constants {
 	
-	public static final int CACHE_EXPIRATION_HOURS = 6;
-	public static final int MAXIMUM_WAIT_SECONDS_FOR_RELOAD_WHEN_EXPIRED = 5;
+	public static final int CACHE_EXPIRES_TIME = 6;
+	public static final int CACHE_EXPIRES_TIME_UNIT = Calendar.HOUR;
+	public static final int CACHE_MAXIMUM_REQUEST_WAIT_FOR_RELOAD_WHEN_EXPIRED_SECONDS = 5;
+	public static final int CACHE_ASSUME_LOAD_FAILED_MINUTES = 5;
 
 }

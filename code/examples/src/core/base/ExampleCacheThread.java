@@ -4,16 +4,16 @@ import common.Logger;
 
 public class ExampleCacheThread extends Thread {
 	
-	public ExampleCacheThread(ExampleCache exampleCache) {
+	public ExampleCacheThread(PropertiesCache exampleCache) {
 		this.exampleCache = exampleCache;
 	}
 	
-	private ExampleCache exampleCache;
+	private PropertiesCache exampleCache;
 	
 	public void run() {
-		Logger.log("Begin");
-		exampleCache.loadProperties();
-		Logger.log("End");
+		Logger.logDebug("Begin");
+		exampleCache.load();
+		Logger.logDebug("End");
 	}
 
 }
