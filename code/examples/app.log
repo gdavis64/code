@@ -559,3 +559,1006 @@
 2018-03-20 20:15:29.264 DEBUG [main] - Fun Application1521591321607 
 2018-03-20 20:15:32.761 DEBUG [ExampleCacheLoadThread] - load() end 
 2018-03-20 20:15:32.762 DEBUG [ExampleCacheLoadThread] - End 
+2018-03-20 22:05:11.122 DEBUG [t1] - Begin 
+2018-03-20 22:05:11.126 DEBUG [t1] - load() begin 
+2018-03-20 22:05:11.126 DEBUG [t1] - isLoadInProgress: false 
+2018-03-20 22:05:11.318 DEBUG [t2] - Begin 
+2018-03-20 22:05:16.128 DEBUG [t1] - load() end 
+2018-03-20 22:05:16.128 DEBUG [t2] - properties: {application_name=Fun Application1521597911126}-1090927705 
+2018-03-20 22:05:16.128 DEBUG [t1] - properties: {application_name=Fun Application1521597911126}-1090927705 
+2018-03-20 22:05:16.129 DEBUG [t1] - End 
+2018-03-20 22:05:16.129 DEBUG [t2] - End 
+2018-03-20 22:07:49.039 DEBUG [t1] - Begin 
+2018-03-20 22:07:49.042 DEBUG [t1] - load() begin 
+2018-03-20 22:07:49.042 DEBUG [t1] - isLoadInProgress: false 
+2018-03-20 22:07:49.043 DEBUG [t1] - load() end 
+2018-03-20 22:07:49.043 DEBUG [t1] - properties: {application_name=Fun Application1521598069042}-456362425 
+2018-03-20 22:07:49.043 DEBUG [t1] - End 
+2018-03-20 22:07:49.321 DEBUG [t2] - Begin 
+2018-03-20 22:07:49.322 DEBUG [t2] - properties: {application_name=Fun Application1521598069042}-456362425 
+2018-03-20 22:07:49.323 DEBUG [t2] - End 
+2018-03-20 22:10:21.100 DEBUG [t1] - Begin 
+2018-03-20 22:10:21.103 DEBUG [t1] - load() begin 
+2018-03-20 22:10:21.104 DEBUG [t1] - isLoadInProgress: false 
+2018-03-20 22:10:21.104 DEBUG [t1] - load() end 
+2018-03-20 22:10:21.104 DEBUG [t1] - properties: {application_name=Fun Application1521598221104}-403035652 
+2018-03-20 22:10:21.104 DEBUG [t1] - End 
+2018-03-20 22:10:21.335 DEBUG [t2] - Begin 
+2018-03-20 22:10:21.339 DEBUG [t2] - isExpired: false 
+2018-03-20 22:10:21.339 DEBUG [t2] - properties: {application_name=Fun Application1521598221104}-403035652 
+2018-03-20 22:10:21.340 DEBUG [t2] - End 
+2018-03-20 22:12:42.168 DEBUG [t1] - Begin 
+2018-03-20 22:12:42.171 DEBUG [t1] - load() begin 
+2018-03-20 22:12:42.171 DEBUG [t1] - isLoadInProgress: false 
+2018-03-20 22:12:42.171 DEBUG [t1] - load() end 
+2018-03-20 22:12:42.171 DEBUG [t1] - properties: {application_name=Fun Application1521598362171}-370551388 
+2018-03-20 22:12:42.171 DEBUG [t1] - End 
+2018-03-20 22:12:42.268 DEBUG [t2] - Begin 
+2018-03-20 22:12:42.269 DEBUG [t2] - isExpired, cacheExpiresTimeUnit: 13 cacheExpiresTime: 1 
+2018-03-20 22:12:42.269 DEBUG [t2] - isExpired: false 
+2018-03-20 22:12:42.270 DEBUG [t2] - properties: {application_name=Fun Application1521598362171}-370551388 
+2018-03-20 22:12:42.270 DEBUG [t2] - End 
+2018-03-20 22:16:57.584 DEBUG [t1] - Begin 
+2018-03-20 22:16:57.587 DEBUG [t1] - load() begin 
+2018-03-20 22:16:57.587 DEBUG [t1] - isLoadInProgress: false 
+2018-03-20 22:16:57.588 DEBUG [t1] - load() end 
+2018-03-20 22:16:57.588 DEBUG [t1] - properties: {application_name=Fun Application1521598617588}-290308351 
+2018-03-20 22:16:57.588 DEBUG [t1] - End 
+2018-03-20 22:16:58.912 DEBUG [t2] - Begin 
+2018-03-20 22:16:58.913 DEBUG [t2] - isExpired, cacheExpiresTimeUnit: 13 cacheExpiresTime: 1 
+2018-03-20 22:16:58.914 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-20 22:16:58.914 DEBUG [t2] - isExpired: true 
+2018-03-20 22:16:58.915 DEBUG [Load thread t2] - Begin 
+2018-03-20 22:16:58.917 DEBUG [Load thread t2] - load() begin 
+2018-03-20 22:16:58.917 DEBUG [Load thread t2] - isLoadInProgress: false 
+2018-03-20 22:16:58.918 DEBUG [Load thread t2] - load() end 
+2018-03-20 22:16:58.918 DEBUG [Load thread t2] - End 
+2018-03-20 22:16:58.919 DEBUG [t2] - after reload properties: {application_name=Fun Application1521598618918}-290274881 
+2018-03-20 22:16:58.919 DEBUG [t2] - properties: {application_name=Fun Application1521598618918}-290274881 
+2018-03-20 22:16:58.919 DEBUG [t2] - End 
+2018-03-20 22:22:20.522 DEBUG [t1] - Begin 
+2018-03-20 22:22:20.525 DEBUG [t1] - load() begin 
+2018-03-20 22:22:20.525 DEBUG [t1] - isLoadInProgress: false 
+2018-03-20 22:22:20.525 DEBUG [t1] - load() end 
+2018-03-20 22:22:20.525 DEBUG [t1] - properties: {application_name=Fun Application1521598940525}-200679361 
+2018-03-20 22:22:20.526 DEBUG [t1] - End 
+2018-03-20 22:22:21.710 DEBUG [t2] - Begin 
+2018-03-20 22:22:21.715 DEBUG [t2] - isExpired, cacheExpiresTimeUnit: 13 cacheExpiresTime: 1 
+2018-03-20 22:22:21.716 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-20 22:22:21.716 DEBUG [t2] - isExpired: true 
+2018-03-20 22:22:21.717 DEBUG [Load thread t2] - Begin 
+2018-03-20 22:22:21.718 DEBUG [Load thread t2] - load() begin 
+2018-03-20 22:22:21.719 DEBUG [Load thread t2] - isLoadInProgress: false 
+2018-03-20 22:22:21.719 DEBUG [Load thread t2] - load() end 
+2018-03-20 22:22:21.719 DEBUG [Load thread t2] - End 
+2018-03-20 22:22:21.720 DEBUG [t2] - after reload properties: {application_name=Fun Application1521598941719}-200778767 
+2018-03-20 22:22:21.720 DEBUG [t2] - properties: {application_name=Fun Application1521598941719}-200778767 
+2018-03-20 22:22:21.720 DEBUG [t2] - End 
+2018-03-20 22:22:55.480 DEBUG [t1] - Begin 
+2018-03-20 22:22:55.483 DEBUG [t1] - load() begin 
+2018-03-20 22:22:55.483 DEBUG [t1] - isLoadInProgress: false 
+2018-03-20 22:22:55.483 DEBUG [t1] - load() end 
+2018-03-20 22:22:55.484 DEBUG [t1] - properties: {application_name=Fun Application1521598975483}-198940320 
+2018-03-20 22:22:55.484 DEBUG [t1] - End 
+2018-03-20 22:22:56.868 DEBUG [t2] - Begin 
+2018-03-20 22:22:56.869 DEBUG [t2] - isExpired, cacheExpiresTimeUnit: 13 cacheExpiresTime: 1 
+2018-03-20 22:22:56.870 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-20 22:22:56.870 DEBUG [t2] - isExpired: true 
+2018-03-20 22:22:56.871 DEBUG [Load thread t2] - Begin 
+2018-03-20 22:22:56.873 DEBUG [Load thread t2] - load() begin 
+2018-03-20 22:22:56.873 DEBUG [Load thread t2] - isLoadInProgress: false 
+2018-03-20 22:22:56.873 DEBUG [Load thread t2] - load() end 
+2018-03-20 22:22:56.874 DEBUG [Load thread t2] - End 
+2018-03-20 22:22:56.874 DEBUG [t2] - after reload properties: {application_name=Fun Application1521598976873}-198906716 
+2018-03-20 22:22:56.874 DEBUG [t2] - properties: {application_name=Fun Application1521598976873}-198906716 
+2018-03-20 22:22:56.875 DEBUG [t2] - End 
+2018-03-20 22:25:02.774 DEBUG [t1] - Begin 
+2018-03-20 22:25:02.777 DEBUG [t1] - load() begin 
+2018-03-20 22:25:02.777 DEBUG [t1] - isLoadInProgress: false 
+2018-03-20 22:25:02.777 DEBUG [t1] - load() end 
+2018-03-20 22:25:02.777 DEBUG [t1] - properties: {application_name=Fun Application1521599102777}453110109 
+2018-03-20 22:25:02.778 DEBUG [t1] - End 
+2018-03-20 22:25:03.814 DEBUG [t2] - Begin 
+2018-03-20 22:25:03.814 DEBUG [t2] - isExpired, cacheExpiresTimeUnit: 13 cacheExpiresTime: 1 
+2018-03-20 22:25:03.815 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-20 22:25:03.815 DEBUG [t2] - isExpired: true 
+2018-03-20 22:25:03.816 DEBUG [Load thread t2] - Begin 
+2018-03-20 22:25:03.817 DEBUG [Load thread t2] - load() begin 
+2018-03-20 22:25:03.817 DEBUG [Load thread t2] - isLoadInProgress: false 
+2018-03-20 22:25:03.817 DEBUG [Load thread t2] - load() end 
+2018-03-20 22:25:03.817 DEBUG [Load thread t2] - End 
+2018-03-20 22:25:03.818 DEBUG [t2] - after reload properties: {application_name=Fun Application1521599103817}453009591 
+2018-03-20 22:25:03.818 DEBUG [t2] - properties: {application_name=Fun Application1521599103817}453009591 
+2018-03-20 22:25:03.818 DEBUG [t2] - End 
+2018-03-20 22:26:04.699 DEBUG [t1] - Begin 
+2018-03-20 22:26:04.701 DEBUG [t1] - load() begin 
+2018-03-20 22:26:04.702 DEBUG [t1] - isLoadInProgress: false 
+2018-03-20 22:26:04.702 DEBUG [t1] - load() end 
+2018-03-20 22:26:04.702 DEBUG [t1] - properties: {application_name=Fun Application1521599164702}458710583 
+2018-03-20 22:26:04.702 DEBUG [t1] - End 
+2018-03-20 22:26:06.060 DEBUG [t2] - Begin 
+2018-03-20 22:26:06.061 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-20 22:26:06.062 DEBUG [t2] - isExpired: true 
+2018-03-20 22:26:06.064 DEBUG [Load thread t2] - Begin 
+2018-03-20 22:26:06.065 DEBUG [Load thread t2] - load() begin 
+2018-03-20 22:26:06.065 DEBUG [Load thread t2] - isLoadInProgress: false 
+2018-03-20 22:26:06.066 DEBUG [Load thread t2] - load() end 
+2018-03-20 22:26:06.066 DEBUG [Load thread t2] - End 
+2018-03-20 22:26:06.066 DEBUG [t2] - after reload properties: {application_name=Fun Application1521599166066}458632568 
+2018-03-20 22:26:06.067 DEBUG [t2] - properties: {application_name=Fun Application1521599166066}458632568 
+2018-03-20 22:26:06.067 DEBUG [t2] - End 
+2018-03-20 22:31:43.946 DEBUG [t1] - Begin 
+2018-03-20 22:31:43.949 DEBUG [t1] - load() begin 
+2018-03-20 22:31:43.949 DEBUG [t1] - isLoadInProgress: false 
+2018-03-20 22:31:43.950 DEBUG [t1] - load() end 
+2018-03-20 22:31:43.950 DEBUG [t1] - properties: {application_name=Fun Application1521599503950}567658309 
+2018-03-20 22:31:43.950 DEBUG [t1] - End 
+2018-03-20 22:31:45.144 DEBUG [t2] - Begin 
+2018-03-20 22:31:45.145 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-20 22:31:45.146 DEBUG [t2] - isExpired: true 
+2018-03-20 22:31:45.147 DEBUG [t2PropertiesCacheLoadThread] - Begin 
+2018-03-20 22:31:45.148 DEBUG [t2PropertiesCacheLoadThread] - load() begin 
+2018-03-20 22:31:45.149 DEBUG [t2PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 22:31:45.149 DEBUG [t2PropertiesCacheLoadThread] - load() end 
+2018-03-20 22:31:45.149 DEBUG [t2PropertiesCacheLoadThread] - End 
+2018-03-20 22:31:45.150 DEBUG [t2] - after reload properties: {application_name=Fun Application1521599505149}567579109 
+2018-03-20 22:31:45.150 DEBUG [t2] - properties: {application_name=Fun Application1521599505149}567579109 
+2018-03-20 22:31:45.150 DEBUG [t2] - End 
+2018-03-20 22:32:38.748 DEBUG [t1] - Begin 
+2018-03-20 22:32:38.751 DEBUG [t1] - load() begin 
+2018-03-20 22:32:38.751 DEBUG [t1] - isLoadInProgress: false 
+2018-03-20 22:32:38.751 DEBUG [t1] - load() end 
+2018-03-20 22:32:38.751 DEBUG [t1] - properties: {application_name=Fun Application1521599558751}573340452 
+2018-03-20 22:32:38.751 DEBUG [t1] - End 
+2018-03-20 22:32:40.137 DEBUG [t2] - Begin 
+2018-03-20 22:32:40.139 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-20 22:32:40.139 DEBUG [t2] - isExpired: true 
+2018-03-20 22:32:40.140 DEBUG [t2 PropertiesCacheLoadThread] - Begin 
+2018-03-20 22:32:40.141 DEBUG [t2 PropertiesCacheLoadThread] - load() begin 
+2018-03-20 22:32:40.142 DEBUG [t2 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-20 22:32:40.142 DEBUG [t2 PropertiesCacheLoadThread] - load() end 
+2018-03-20 22:32:40.142 DEBUG [t2 PropertiesCacheLoadThread] - End 
+2018-03-20 22:32:40.142 DEBUG [t2] - after reload properties: {application_name=Fun Application1521599560142}572971321 
+2018-03-20 22:32:40.143 DEBUG [t2] - properties: {application_name=Fun Application1521599560142}572971321 
+2018-03-20 22:32:40.143 DEBUG [t2] - End 
+2018-03-21 18:36:39.608 DEBUG [t1] - Begin 
+2018-03-21 18:36:39.611 DEBUG [t1] - load() begin 
+2018-03-21 18:36:39.612 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 18:36:39.612 DEBUG [t1] - load() end 
+2018-03-21 18:36:39.612 DEBUG [t1] - properties: {application_name=Fun Application1521671799612}1125201348 
+2018-03-21 18:36:39.612 DEBUG [t1] - End 
+2018-03-21 18:36:40.823 DEBUG [t2] - Begin 
+2018-03-21 18:36:40.824 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-21 18:36:40.825 DEBUG [t2] - isExpired: true 
+2018-03-21 18:36:40.826 DEBUG [t2] - isExpired thread.join(60) 
+2018-03-21 18:36:40.827 DEBUG [t2 PropertiesCacheLoadThread] - Begin 
+2018-03-21 18:36:40.827 DEBUG [t2 PropertiesCacheLoadThread] - load() begin 
+2018-03-21 18:36:40.828 DEBUG [t2 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 18:36:40.828 DEBUG [t2 PropertiesCacheLoadThread] - load() end 
+2018-03-21 18:36:40.828 DEBUG [t2 PropertiesCacheLoadThread] - End 
+2018-03-21 18:36:40.828 DEBUG [t2] - after reload properties: {application_name=Fun Application1521671800828}1145252702 
+2018-03-21 18:36:40.829 DEBUG [t2] - properties: {application_name=Fun Application1521671800828}1145252702 
+2018-03-21 18:36:40.829 DEBUG [t2] - End 
+2018-03-21 18:38:23.518 DEBUG [t1] - Begin 
+2018-03-21 18:38:23.521 DEBUG [t1] - load() begin 
+2018-03-21 18:38:23.521 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 18:38:23.522 DEBUG [t1] - load() end 
+2018-03-21 18:38:23.522 DEBUG [t1] - properties: {application_name=Fun Application1521671903522}1175016877 
+2018-03-21 18:38:23.522 DEBUG [t1] - End 
+2018-03-21 18:38:24.676 DEBUG [t2] - Begin 
+2018-03-21 18:38:24.677 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-21 18:38:24.678 DEBUG [t2] - isExpired: true 
+2018-03-21 18:38:24.679 DEBUG [t2] - isExpired thread.join(60000) 
+2018-03-21 18:38:24.679 DEBUG [t2 PropertiesCacheLoadThread] - Begin 
+2018-03-21 18:38:24.680 DEBUG [t2 PropertiesCacheLoadThread] - load() begin 
+2018-03-21 18:38:24.680 DEBUG [t2 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 18:38:24.681 DEBUG [t2 PropertiesCacheLoadThread] - load() end 
+2018-03-21 18:38:24.681 DEBUG [t2 PropertiesCacheLoadThread] - End 
+2018-03-21 18:38:24.681 DEBUG [t2] - after reload properties: {application_name=Fun Application1521671904681}1175047818 
+2018-03-21 18:38:24.682 DEBUG [t2] - properties: {application_name=Fun Application1521671904681}1175047818 
+2018-03-21 18:38:24.682 DEBUG [t2] - End 
+2018-03-21 18:43:05.127 DEBUG [t1] - Begin 
+2018-03-21 18:43:05.129 DEBUG [t1] - load() begin 
+2018-03-21 18:43:05.130 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 18:43:05.130 DEBUG [t1] - load() end 
+2018-03-21 18:43:05.130 DEBUG [t1] - properties: {application_name=Fun Application1521672185130}1840800197 
+2018-03-21 18:43:05.130 DEBUG [t1] - End 
+2018-03-21 18:43:06.358 DEBUG [t2] - Begin 
+2018-03-21 18:43:06.360 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-21 18:43:06.360 DEBUG [t2] - isExpired: true 
+2018-03-21 18:43:06.362 DEBUG [t2] - isExpired thread.join(60000) 
+2018-03-21 18:43:06.362 DEBUG [t2 PropertiesCacheLoadThread] - Begin 
+2018-03-21 18:43:06.363 DEBUG [t2 PropertiesCacheLoadThread] - load() begin 
+2018-03-21 18:43:06.363 DEBUG [t2 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 18:43:06.364 DEBUG [t2 PropertiesCacheLoadThread] - load() end 
+2018-03-21 18:43:06.364 DEBUG [t2 PropertiesCacheLoadThread] - End 
+2018-03-21 18:43:06.365 DEBUG [t2] - after reload properties: {application_name=Fun Application1521672186364}1840832059 
+2018-03-21 18:43:06.365 DEBUG [t2] - properties: {application_name=Fun Application1521672186364}1840832059 
+2018-03-21 18:43:06.366 DEBUG [t2] - End 
+2018-03-21 18:43:20.647 DEBUG [t1] - Begin 
+2018-03-21 18:43:20.650 DEBUG [t1] - load() begin 
+2018-03-21 18:43:20.650 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 18:43:20.650 DEBUG [t1] - load() end 
+2018-03-21 18:43:20.650 DEBUG [t1] - properties: {application_name=Fun Application1521672200650}1861897092 
+2018-03-21 18:43:20.650 DEBUG [t1] - End 
+2018-03-21 18:43:21.749 DEBUG [t2] - Begin 
+2018-03-21 18:43:21.750 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-21 18:43:21.751 DEBUG [t2] - isExpired: true 
+2018-03-21 18:43:21.752 DEBUG [t2] - isExpired thread.join(5000) 
+2018-03-21 18:43:21.752 DEBUG [t2 PropertiesCacheLoadThread] - Begin 
+2018-03-21 18:43:21.753 DEBUG [t2 PropertiesCacheLoadThread] - load() begin 
+2018-03-21 18:43:21.753 DEBUG [t2 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 18:43:21.754 DEBUG [t2 PropertiesCacheLoadThread] - load() end 
+2018-03-21 18:43:21.754 DEBUG [t2 PropertiesCacheLoadThread] - End 
+2018-03-21 18:43:21.755 DEBUG [t2] - after reload properties: {application_name=Fun Application1521672201754}1861927896 
+2018-03-21 18:43:21.755 DEBUG [t2] - properties: {application_name=Fun Application1521672201754}1861927896 
+2018-03-21 18:43:21.755 DEBUG [t2] - End 
+2018-03-21 18:57:10.934 DEBUG [main] - ste 0 java.base/java.lang.Thread.getStackTrace(Thread.java:1654) 
+2018-03-21 18:57:10.937 DEBUG [main] - ste 1 common.Logger.logDebugStart(Logger.java:11) 
+2018-03-21 18:57:10.937 DEBUG [t1] - Begin 
+2018-03-21 18:57:10.938 DEBUG [t1] - load() begin 
+2018-03-21 18:57:10.939 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 18:57:10.939 DEBUG [t1] - load() end 
+2018-03-21 18:57:10.939 DEBUG [t1] - properties: {application_name=Fun Application1521673030939}-1600968920 
+2018-03-21 18:57:10.939 DEBUG [t1] - End 
+2018-03-21 18:57:12.943 DEBUG [t2] - Begin 
+2018-03-21 18:57:12.945 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-21 18:57:12.945 DEBUG [t2] - isExpired: true 
+2018-03-21 18:57:12.946 DEBUG [t2] - isExpired thread.join(5000) 
+2018-03-21 18:57:12.946 DEBUG [t2 PropertiesCacheLoadThread] - Begin 
+2018-03-21 18:57:12.947 DEBUG [t2 PropertiesCacheLoadThread] - load() begin 
+2018-03-21 18:57:12.948 DEBUG [t2 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 18:57:12.948 DEBUG [t2 PropertiesCacheLoadThread] - load() end 
+2018-03-21 18:57:12.949 DEBUG [t2 PropertiesCacheLoadThread] - End 
+2018-03-21 18:57:12.949 DEBUG [t2] - after reload properties: {application_name=Fun Application1521673032948}-1601040364 
+2018-03-21 18:57:12.949 DEBUG [t2] - properties: {application_name=Fun Application1521673032948}-1601040364 
+2018-03-21 18:57:12.949 DEBUG [t2] - End 
+2018-03-21 18:58:11.222 DEBUG [t1] - ste 0 java.base/java.lang.Thread.getStackTrace(Thread.java:1654) 
+2018-03-21 18:58:11.225 DEBUG [t1] - ste 1 common.Logger.logDebugStart(Logger.java:11) 
+2018-03-21 18:58:11.225 DEBUG [t1] - Begin 
+2018-03-21 18:58:11.226 DEBUG [t1] - load() begin 
+2018-03-21 18:58:11.226 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 18:58:11.227 DEBUG [t1] - load() end 
+2018-03-21 18:58:11.227 DEBUG [t1] - properties: {application_name=Fun Application1521673091227}-1595535819 
+2018-03-21 18:58:11.227 DEBUG [t1] - End 
+2018-03-21 18:58:12.530 DEBUG [t2] - ste 0 java.base/java.lang.Thread.getStackTrace(Thread.java:1654) 
+2018-03-21 18:58:12.532 DEBUG [t2] - ste 1 common.Logger.logDebugStart(Logger.java:11) 
+2018-03-21 18:58:12.532 DEBUG [t2] - Begin 
+2018-03-21 18:58:12.532 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-21 18:58:12.533 DEBUG [t2] - isExpired: true 
+2018-03-21 18:58:12.534 DEBUG [t2] - isExpired thread.join(5000) 
+2018-03-21 18:58:12.534 DEBUG [t2 PropertiesCacheLoadThread] - Begin 
+2018-03-21 18:58:12.536 DEBUG [t2 PropertiesCacheLoadThread] - load() begin 
+2018-03-21 18:58:12.536 DEBUG [t2 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 18:58:12.537 DEBUG [t2 PropertiesCacheLoadThread] - load() end 
+2018-03-21 18:58:12.537 DEBUG [t2 PropertiesCacheLoadThread] - End 
+2018-03-21 18:58:12.538 DEBUG [t2] - after reload properties: {application_name=Fun Application1521673092537}-1595503126 
+2018-03-21 18:58:12.538 DEBUG [t2] - properties: {application_name=Fun Application1521673092537}-1595503126 
+2018-03-21 18:58:12.538 DEBUG [t2] - End 
+2018-03-21 18:58:50.983 DEBUG [t1] - ste 0 java.base/java.lang.Thread.getStackTrace(Thread.java:1654) 
+2018-03-21 18:58:50.985 DEBUG [t1] - ste 1 common.Logger.logDebugStart(Logger.java:11) 
+2018-03-21 18:58:50.985 DEBUG [t1] - ste 2 core.base.RequestThread.run(RequestThread.java:10) 
+2018-03-21 18:58:50.986 DEBUG [t1] - Begin 
+2018-03-21 18:58:50.986 DEBUG [t1] - load() begin 
+2018-03-21 18:58:50.987 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 18:58:50.987 DEBUG [t1] - load() end 
+2018-03-21 18:58:50.987 DEBUG [t1] - properties: {application_name=Fun Application1521673130987}-1572470672 
+2018-03-21 18:58:50.987 DEBUG [t1] - End 
+2018-03-21 18:58:52.378 DEBUG [t2] - ste 0 java.base/java.lang.Thread.getStackTrace(Thread.java:1654) 
+2018-03-21 18:58:52.379 DEBUG [t2] - ste 1 common.Logger.logDebugStart(Logger.java:11) 
+2018-03-21 18:58:52.379 DEBUG [t2] - ste 2 core.base.RequestThread.run(RequestThread.java:10) 
+2018-03-21 18:58:52.380 DEBUG [t2] - Begin 
+2018-03-21 18:58:52.380 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-21 18:58:52.380 DEBUG [t2] - isExpired: true 
+2018-03-21 18:58:52.382 DEBUG [t2] - isExpired thread.join(5000) 
+2018-03-21 18:58:52.382 DEBUG [t2 PropertiesCacheLoadThread] - Begin 
+2018-03-21 18:58:52.383 DEBUG [t2 PropertiesCacheLoadThread] - load() begin 
+2018-03-21 18:58:52.383 DEBUG [t2 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 18:58:52.384 DEBUG [t2 PropertiesCacheLoadThread] - load() end 
+2018-03-21 18:58:52.384 DEBUG [t2 PropertiesCacheLoadThread] - End 
+2018-03-21 18:58:52.384 DEBUG [t2] - after reload properties: {application_name=Fun Application1521673132383}-1572416892 
+2018-03-21 18:58:52.385 DEBUG [t2] - properties: {application_name=Fun Application1521673132383}-1572416892 
+2018-03-21 18:58:52.385 DEBUG [t2] - End 
+2018-03-21 19:00:55.866 DEBUG [t1] - ste 0 java.base/java.lang.Thread.getStackTrace(Thread.java:1654) 
+2018-03-21 19:00:55.870 DEBUG [t1] - ste 1 common.Logger.logDebugStart(Logger.java:11) 
+2018-03-21 19:00:55.870 DEBUG [t1] - ste 2 core.base.RequestThread.run(RequestThread.java:10) 
+2018-03-21 19:00:55.870 DEBUG [t1] - ste 2 run 
+2018-03-21 19:00:55.871 DEBUG [t1] - Begin 
+2018-03-21 19:00:55.872 DEBUG [t1] - load() begin 
+2018-03-21 19:00:55.872 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 19:00:55.873 DEBUG [t1] - load() end 
+2018-03-21 19:00:55.873 DEBUG [t1] - properties: {application_name=Fun Application1521673255873}-1540666856 
+2018-03-21 19:00:55.873 DEBUG [t1] - End 
+2018-03-21 19:00:57.043 DEBUG [t2] - ste 0 java.base/java.lang.Thread.getStackTrace(Thread.java:1654) 
+2018-03-21 19:00:57.044 DEBUG [t2] - ste 1 common.Logger.logDebugStart(Logger.java:11) 
+2018-03-21 19:00:57.044 DEBUG [t2] - ste 2 core.base.RequestThread.run(RequestThread.java:10) 
+2018-03-21 19:00:57.045 DEBUG [t2] - ste 2 run 
+2018-03-21 19:00:57.045 DEBUG [t2] - Begin 
+2018-03-21 19:00:57.046 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-21 19:00:57.046 DEBUG [t2] - isExpired: true 
+2018-03-21 19:00:57.048 DEBUG [t2] - isExpired thread.join(5000) 
+2018-03-21 19:00:57.048 DEBUG [t2 PropertiesCacheLoadThread] - Begin 
+2018-03-21 19:00:57.049 DEBUG [t2 PropertiesCacheLoadThread] - load() begin 
+2018-03-21 19:00:57.049 DEBUG [t2 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 19:00:57.050 DEBUG [t2 PropertiesCacheLoadThread] - load() end 
+2018-03-21 19:00:57.050 DEBUG [t2 PropertiesCacheLoadThread] - End 
+2018-03-21 19:00:57.050 DEBUG [t2] - after reload properties: {application_name=Fun Application1521673257050}-1540746131 
+2018-03-21 19:00:57.051 DEBUG [t2] - properties: {application_name=Fun Application1521673257050}-1540746131 
+2018-03-21 19:00:57.051 DEBUG [t2] - End 
+2018-03-21 19:02:42.954 DEBUG [t1] - ste 0 java.base/java.lang.Thread.getStackTrace(Thread.java:1654) 
+2018-03-21 19:02:42.957 DEBUG [t1] - ste 1 common.Logger.logDebugBegin(Logger.java:11) 
+2018-03-21 19:02:42.957 DEBUG [t1] - ste 2 core.base.RequestThread.run(RequestThread.java:10) 
+2018-03-21 19:02:42.958 DEBUG [t1] - run Begin 
+2018-03-21 19:02:42.958 DEBUG [t1] - Begin 
+2018-03-21 19:02:42.958 DEBUG [t1] - load() begin 
+2018-03-21 19:02:42.959 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 19:02:42.959 DEBUG [t1] - load() end 
+2018-03-21 19:02:42.959 DEBUG [t1] - properties: {application_name=Fun Application1521673362959}-1511333740 
+2018-03-21 19:02:42.959 DEBUG [t1] - End 
+2018-03-21 19:02:44.320 DEBUG [t2] - ste 0 java.base/java.lang.Thread.getStackTrace(Thread.java:1654) 
+2018-03-21 19:02:44.321 DEBUG [t2] - ste 1 common.Logger.logDebugBegin(Logger.java:11) 
+2018-03-21 19:02:44.322 DEBUG [t2] - ste 2 core.base.RequestThread.run(RequestThread.java:10) 
+2018-03-21 19:02:44.322 DEBUG [t2] - run Begin 
+2018-03-21 19:02:44.322 DEBUG [t2] - Begin 
+2018-03-21 19:02:44.323 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-21 19:02:44.323 DEBUG [t2] - isExpired: true 
+2018-03-21 19:02:44.324 DEBUG [t2] - isExpired thread.join(5000) 
+2018-03-21 19:02:44.324 DEBUG [t2 PropertiesCacheLoadThread] - Begin 
+2018-03-21 19:02:44.325 DEBUG [t2 PropertiesCacheLoadThread] - load() begin 
+2018-03-21 19:02:44.326 DEBUG [t2 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 19:02:44.326 DEBUG [t2 PropertiesCacheLoadThread] - load() end 
+2018-03-21 19:02:44.326 DEBUG [t2 PropertiesCacheLoadThread] - End 
+2018-03-21 19:02:44.327 DEBUG [t2] - after reload properties: {application_name=Fun Application1521673364326}-1511148932 
+2018-03-21 19:02:44.327 DEBUG [t2] - properties: {application_name=Fun Application1521673364326}-1511148932 
+2018-03-21 19:02:44.327 DEBUG [t2] - End 
+2018-03-21 19:05:09.228 DEBUG [main] - main Begin 
+2018-03-21 19:05:09.231 DEBUG [t1] - run Begin 
+2018-03-21 19:05:09.231 DEBUG [t1] - Begin 
+2018-03-21 19:05:09.232 DEBUG [t1] - load() begin 
+2018-03-21 19:05:09.232 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 19:05:09.232 DEBUG [t1] - load() end 
+2018-03-21 19:05:09.232 DEBUG [t1] - properties: {application_name=Fun Application1521673509232}-1460332343 
+2018-03-21 19:05:09.232 DEBUG [t1] - End 
+2018-03-21 19:05:11.236 DEBUG [t2] - run Begin 
+2018-03-21 19:05:11.238 DEBUG [t2] - Begin 
+2018-03-21 19:05:11.238 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-21 19:05:11.238 DEBUG [t2] - isExpired: true 
+2018-03-21 19:05:11.240 DEBUG [t2] - isExpired thread.join(5000) 
+2018-03-21 19:05:11.240 DEBUG [t2 PropertiesCacheLoadThread] - Begin 
+2018-03-21 19:05:11.241 DEBUG [t2 PropertiesCacheLoadThread] - load() begin 
+2018-03-21 19:05:11.241 DEBUG [t2 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 19:05:11.242 DEBUG [t2 PropertiesCacheLoadThread] - load() end 
+2018-03-21 19:05:11.242 DEBUG [t2 PropertiesCacheLoadThread] - End 
+2018-03-21 19:05:11.242 DEBUG [t2] - after reload properties: {application_name=Fun Application1521673511242}-1458598559 
+2018-03-21 19:05:11.243 DEBUG [t2] - properties: {application_name=Fun Application1521673511242}-1458598559 
+2018-03-21 19:05:11.243 DEBUG [t2] - End 
+2018-03-21 19:05:13.239 DEBUG [main] - main End 
+2018-03-21 19:21:23.137 DEBUG [main] - main Begin 
+2018-03-21 19:21:23.140 DEBUG [t1] - run Begin 
+2018-03-21 19:21:23.141 DEBUG [t1] - load() begin 
+2018-03-21 19:21:23.141 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 19:21:23.141 DEBUG [t1] - load() end 
+2018-03-21 19:21:23.141 DEBUG [t1] - properties: {application_name=Fun Application1521674483141}-594380358 
+2018-03-21 19:21:23.141 DEBUG [t1] - run End 
+2018-03-21 19:21:25.146 DEBUG [t2] - run Begin 
+2018-03-21 19:21:25.148 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-21 19:21:25.148 DEBUG [t2] - isExpired: true 
+2018-03-21 19:21:25.149 DEBUG [t2] - isExpired thread.join(5000) 
+2018-03-21 19:21:25.150 DEBUG [t2 PropertiesCacheLoadThread] - Begin 
+2018-03-21 19:21:25.151 DEBUG [t2 PropertiesCacheLoadThread] - load() begin 
+2018-03-21 19:21:25.151 DEBUG [t2 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 19:21:25.152 DEBUG [t2 PropertiesCacheLoadThread] - load() end 
+2018-03-21 19:21:25.152 DEBUG [t2 PropertiesCacheLoadThread] - End 
+2018-03-21 19:21:25.153 DEBUG [t2] - after reload properties: {application_name=Fun Application1521674485152}-594189724 
+2018-03-21 19:21:25.153 DEBUG [t2] - properties: {application_name=Fun Application1521674485152}-594189724 
+2018-03-21 19:21:25.153 DEBUG [t2] - run End 
+2018-03-21 19:21:27.149 DEBUG [main] - main End 
+2018-03-21 19:22:41.925 DEBUG [main] - main Begin 
+2018-03-21 19:22:41.928 DEBUG [t1] - run Begin 
+2018-03-21 19:22:41.929 DEBUG [t1] - load Begin 
+2018-03-21 19:22:41.929 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 19:22:41.929 DEBUG [t1] - load End 
+2018-03-21 19:22:41.929 DEBUG [t1] - properties: {application_name=Fun Application1521674561929}-566601653 
+2018-03-21 19:22:41.930 DEBUG [t1] - run End 
+2018-03-21 19:22:43.932 DEBUG [t2] - run Begin 
+2018-03-21 19:22:43.934 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-21 19:22:43.934 DEBUG [t2] - isExpired: true 
+2018-03-21 19:22:43.935 DEBUG [t2] - isExpired thread.join(5000) 
+2018-03-21 19:22:43.935 DEBUG [t2 PropertiesCacheLoadThread] - Begin 
+2018-03-21 19:22:43.937 DEBUG [t2 PropertiesCacheLoadThread] - load Begin 
+2018-03-21 19:22:43.937 DEBUG [t2 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 19:22:43.938 DEBUG [t2 PropertiesCacheLoadThread] - load End 
+2018-03-21 19:22:43.938 DEBUG [t2 PropertiesCacheLoadThread] - End 
+2018-03-21 19:22:43.939 DEBUG [t2] - after reload properties: {application_name=Fun Application1521674563938}-566410953 
+2018-03-21 19:22:43.939 DEBUG [t2] - properties: {application_name=Fun Application1521674563938}-566410953 
+2018-03-21 19:22:43.939 DEBUG [t2] - run End 
+2018-03-21 19:22:45.937 DEBUG [main] - main End 
+2018-03-21 20:04:41.498 DEBUG [main] - main Begin 
+2018-03-21 20:04:41.502 DEBUG [t1] - run Begin 
+2018-03-21 20:04:41.503 DEBUG [t1] - load Begin 
+2018-03-21 20:04:41.503 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 20:04:41.503 DEBUG [t1] - load End 
+2018-03-21 20:04:41.503 DEBUG [t1] - properties: {application_name=Fun Application1521677081503}1953558185 
+2018-03-21 20:04:41.503 DEBUG [t1] - run End 
+2018-03-21 20:04:43.507 DEBUG [t2] - run Begin 
+2018-03-21 20:04:43.509 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-21 20:04:43.509 DEBUG [t2] - isExpired: true 
+2018-03-21 20:04:43.510 DEBUG [t2] - isExpired thread.join(5000) 
+2018-03-21 20:04:43.511 DEBUG [t2 PropertiesCacheLoadThread] - Begin 
+2018-03-21 20:04:43.512 DEBUG [t2 PropertiesCacheLoadThread] - load Begin 
+2018-03-21 20:04:43.512 DEBUG [t2 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 20:04:43.513 DEBUG [t2 PropertiesCacheLoadThread] - load End 
+2018-03-21 20:04:43.513 DEBUG [t2 PropertiesCacheLoadThread] - End 
+2018-03-21 20:04:43.513 DEBUG [t2] - after reload properties: {application_name=Fun Application1521677083513}1953748874 
+2018-03-21 20:04:43.514 DEBUG [t2] - properties: {application_name=Fun Application1521677083513}1953748874 
+2018-03-21 20:04:43.514 DEBUG [t2] - run End 
+2018-03-21 20:04:45.512 DEBUG [main] - main End 
+2018-03-21 20:22:20.508 DEBUG [main] - main Begin 
+2018-03-21 20:22:20.510 DEBUG [t1] - run Begin 
+2018-03-21 20:22:20.511 DEBUG [t1] - load Begin 
+2018-03-21 20:22:20.511 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 20:22:20.512 DEBUG [t1] - load End 
+2018-03-21 20:22:20.512 DEBUG [t1] - properties: {application_name=Fun Application1521678140512}-1428869036 
+2018-03-21 20:22:20.512 DEBUG [t1] - run End 
+2018-03-21 20:22:22.512 DEBUG [t2] - run Begin 
+2018-03-21 20:22:22.513 DEBUG [t2] - isExpired, c after loadCompleted 
+2018-03-21 20:22:22.513 DEBUG [t2] - isExpired: true 
+2018-03-21 20:22:22.515 DEBUG [t2] - isExpired thread.join(5000) 
+2018-03-21 20:22:22.515 DEBUG [t2 PropertiesCacheLoadThread] - Begin 
+2018-03-21 20:22:22.516 DEBUG [t2 PropertiesCacheLoadThread] - load Begin 
+2018-03-21 20:22:22.517 DEBUG [t2 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 20:22:22.517 DEBUG [t2 PropertiesCacheLoadThread] - load End 
+2018-03-21 20:22:22.518 DEBUG [t2 PropertiesCacheLoadThread] - End 
+2018-03-21 20:22:22.518 DEBUG [t2] - after reload properties: {application_name=Fun Application1521678142517}-1428940533 
+2018-03-21 20:22:22.519 DEBUG [t2] - properties: {application_name=Fun Application1521678142517}-1428940533 
+2018-03-21 20:22:22.519 DEBUG [t2] - run End 
+2018-03-21 20:22:29.520 DEBUG [t4] - run Begin 
+2018-03-21 20:22:29.521 DEBUG [t4] - isExpired, c after loadCompleted 
+2018-03-21 20:22:29.521 DEBUG [t4] - isExpired: true 
+2018-03-21 20:22:29.522 DEBUG [t4] - isExpired thread.join(5000) 
+2018-03-21 20:22:29.522 DEBUG [t4 PropertiesCacheLoadThread] - Begin 
+2018-03-21 20:22:29.523 DEBUG [t4 PropertiesCacheLoadThread] - load Begin 
+2018-03-21 20:22:29.523 DEBUG [t4 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 20:22:29.524 DEBUG [t4 PropertiesCacheLoadThread] - load End 
+2018-03-21 20:22:29.524 DEBUG [t4 PropertiesCacheLoadThread] - End 
+2018-03-21 20:22:29.525 DEBUG [t4] - after reload properties: {application_name=Fun Application1521678149524}-1427552292 
+2018-03-21 20:22:29.526 DEBUG [t4] - properties: {application_name=Fun Application1521678149524}-1427552292 
+2018-03-21 20:22:29.526 DEBUG [t4] - run End 
+2018-03-21 20:22:29.623 DEBUG [t5] - run Begin 
+2018-03-21 20:22:29.625 DEBUG [t5] - isExpired: false 
+2018-03-21 20:22:29.625 DEBUG [t5] - properties: {application_name=Fun Application1521678149524}-1427552292 
+2018-03-21 20:22:29.626 DEBUG [t5] - run End 
+2018-03-21 20:22:29.726 DEBUG [t6] - run Begin 
+2018-03-21 20:22:29.727 DEBUG [t6] - isExpired: false 
+2018-03-21 20:22:29.727 DEBUG [t6] - properties: {application_name=Fun Application1521678149524}-1427552292 
+2018-03-21 20:22:29.728 DEBUG [t6] - run End 
+2018-03-21 20:22:29.827 DEBUG [main] - main End 
+2018-03-21 20:46:56.972 DEBUG [main] - main Begin 
+2018-03-21 20:46:56.976 DEBUG [t1] - run Begin 
+2018-03-21 20:46:56.977 DEBUG [t1] - load Begin 
+2018-03-21 20:46:56.977 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 20:46:58.982 DEBUG [t2] - run Begin 
+2018-03-21 20:47:01.983 DEBUG [t1] - load End 
+2018-03-21 20:47:01.983 DEBUG [t2] - properties: {application_name=Fun Application1521679616977}-399889858 
+2018-03-21 20:47:01.983 DEBUG [t1] - properties: {application_name=Fun Application1521679616977}-399889858 
+2018-03-21 20:47:01.984 DEBUG [t2] - run End 
+2018-03-21 20:47:01.984 DEBUG [t1] - run End 
+2018-03-21 20:47:05.989 DEBUG [t4] - run Begin 
+2018-03-21 20:47:05.991 DEBUG [t4] - isExpired, c after loadCompleted 
+2018-03-21 20:47:05.991 DEBUG [t4] - isExpired: true 
+2018-03-21 20:47:05.992 DEBUG [t4] - isExpired thread.join(5000) 
+2018-03-21 20:47:05.992 DEBUG [t4 PropertiesCacheLoadThread] - Begin 
+2018-03-21 20:47:05.993 DEBUG [t4 PropertiesCacheLoadThread] - load Begin 
+2018-03-21 20:47:05.994 DEBUG [t4 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 20:47:06.093 DEBUG [t5] - run Begin 
+2018-03-21 20:47:06.094 DEBUG [t5] - isExpired, c after loadCompleted 
+2018-03-21 20:47:06.095 DEBUG [t5] - isExpired: true 
+2018-03-21 20:47:06.095 DEBUG [t5] - isExpired thread.join(5000) 
+2018-03-21 20:47:06.095 DEBUG [t5 PropertiesCacheLoadThread] - Begin 
+2018-03-21 20:47:06.096 DEBUG [t5 PropertiesCacheLoadThread] - load Begin 
+2018-03-21 20:47:06.097 DEBUG [t5 PropertiesCacheLoadThread] - isLoadInProgress, started after completed 
+2018-03-21 20:47:06.097 DEBUG [t5 PropertiesCacheLoadThread] - isLoadInProgress: true 
+2018-03-21 20:47:06.097 DEBUG [t5 PropertiesCacheLoadThread] - load End 
+2018-03-21 20:47:06.098 DEBUG [t5 PropertiesCacheLoadThread] - End 
+2018-03-21 20:47:06.098 DEBUG [t5] - after reload properties: {application_name=Fun Application1521679616977}-399889858 
+2018-03-21 20:47:06.098 DEBUG [t5] - properties: {application_name=Fun Application1521679616977}-399889858 
+2018-03-21 20:47:06.099 DEBUG [t5] - run End 
+2018-03-21 20:47:06.195 DEBUG [t6] - run Begin 
+2018-03-21 20:47:06.196 DEBUG [t6] - isExpired, c after loadCompleted 
+2018-03-21 20:47:06.197 DEBUG [t6] - isExpired: true 
+2018-03-21 20:47:06.198 DEBUG [t6] - isExpired thread.join(5000) 
+2018-03-21 20:47:06.199 DEBUG [t6 PropertiesCacheLoadThread] - Begin 
+2018-03-21 20:47:06.200 DEBUG [t6 PropertiesCacheLoadThread] - load Begin 
+2018-03-21 20:47:06.200 DEBUG [t6 PropertiesCacheLoadThread] - isLoadInProgress, started after completed 
+2018-03-21 20:47:06.200 DEBUG [t6 PropertiesCacheLoadThread] - isLoadInProgress: true 
+2018-03-21 20:47:06.201 DEBUG [t6 PropertiesCacheLoadThread] - load End 
+2018-03-21 20:47:06.201 DEBUG [t6 PropertiesCacheLoadThread] - End 
+2018-03-21 20:47:06.201 DEBUG [t6] - after reload properties: {application_name=Fun Application1521679616977}-399889858 
+2018-03-21 20:47:06.202 DEBUG [t6] - properties: {application_name=Fun Application1521679616977}-399889858 
+2018-03-21 20:47:06.202 DEBUG [t6] - run End 
+2018-03-21 20:47:10.994 DEBUG [t4] - after reload properties: {application_name=Fun Application1521679616977}-399889858 
+2018-03-21 20:47:10.995 DEBUG [t4] - properties: {application_name=Fun Application1521679616977}-399889858 
+2018-03-21 20:47:10.995 DEBUG [t4] - run End 
+2018-03-21 20:47:10.995 DEBUG [t4 PropertiesCacheLoadThread] - load End 
+2018-03-21 20:47:10.996 DEBUG [t4 PropertiesCacheLoadThread] - End 
+2018-03-21 20:47:10.996 DEBUG [main] - main End 
+2018-03-21 21:36:47.079 DEBUG [main] - main Begin 
+2018-03-21 21:36:47.083 DEBUG [t1] - run Begin 
+2018-03-21 21:36:47.084 DEBUG [t1] - load Begin 
+2018-03-21 21:36:47.084 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 21:36:47.085 DEBUG [t1] - about to sleep 5 secs 
+2018-03-21 21:36:49.087 DEBUG [t2] - run Begin 
+2018-03-21 21:36:52.090 DEBUG [t1] - load End 
+2018-03-21 21:36:52.091 DEBUG [t2] - properties: {application_name=Fun Application1521682607085}-576457868 
+2018-03-21 21:36:52.092 DEBUG [t1] - properties: {application_name=Fun Application1521682607085}-576457868 
+2018-03-21 21:36:52.092 DEBUG [t2] - run End 
+2018-03-21 21:36:52.092 DEBUG [t1] - run End 
+2018-03-21 21:36:56.092 DEBUG [t4] - run Begin 
+2018-03-21 21:36:56.093 DEBUG [t4] - isExpired, c after loadCompleted 
+2018-03-21 21:36:56.093 DEBUG [t4] - isExpired: true 
+2018-03-21 21:36:56.095 DEBUG [t4] - isExpired thread.join(5000) 
+2018-03-21 21:36:56.095 DEBUG [t4 PropertiesCacheLoadThread] - Begin 
+2018-03-21 21:36:56.096 DEBUG [t4 PropertiesCacheLoadThread] - load Begin 
+2018-03-21 21:36:56.096 DEBUG [t4 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 21:36:56.097 DEBUG [t4 PropertiesCacheLoadThread] - about to sleep 5 secs 
+2018-03-21 21:36:56.195 DEBUG [t5] - run Begin 
+2018-03-21 21:36:56.197 DEBUG [t5] - isExpired, c after loadCompleted 
+2018-03-21 21:36:56.197 DEBUG [t5] - isExpired: true 
+2018-03-21 21:36:56.197 DEBUG [t5] - isExpired thread.join(5000) 
+2018-03-21 21:36:56.198 DEBUG [t5 PropertiesCacheLoadThread] - Begin 
+2018-03-21 21:36:56.199 DEBUG [t5 PropertiesCacheLoadThread] - load Begin 
+2018-03-21 21:36:56.199 DEBUG [t5 PropertiesCacheLoadThread] - isLoadInProgress, started after completed 
+2018-03-21 21:36:56.199 DEBUG [t5 PropertiesCacheLoadThread] - isLoadInProgress: true 
+2018-03-21 21:36:56.200 DEBUG [t5 PropertiesCacheLoadThread] - load End 
+2018-03-21 21:36:56.200 DEBUG [t5 PropertiesCacheLoadThread] - End 
+2018-03-21 21:36:56.200 DEBUG [t5] - after reload properties: {application_name=Fun Application1521682607085}-576457868 
+2018-03-21 21:36:56.201 DEBUG [t5] - properties: {application_name=Fun Application1521682607085}-576457868 
+2018-03-21 21:36:56.201 DEBUG [t5] - run End 
+2018-03-21 21:36:56.300 DEBUG [t6] - run Begin 
+2018-03-21 21:36:56.302 DEBUG [t6] - isExpired, c after loadCompleted 
+2018-03-21 21:36:56.302 DEBUG [t6] - isExpired: true 
+2018-03-21 21:36:56.302 DEBUG [t6] - isExpired thread.join(5000) 
+2018-03-21 21:36:56.303 DEBUG [t6 PropertiesCacheLoadThread] - Begin 
+2018-03-21 21:36:56.304 DEBUG [t6 PropertiesCacheLoadThread] - load Begin 
+2018-03-21 21:36:56.305 DEBUG [t6 PropertiesCacheLoadThread] - isLoadInProgress, started after completed 
+2018-03-21 21:36:56.305 DEBUG [t6 PropertiesCacheLoadThread] - isLoadInProgress: true 
+2018-03-21 21:36:56.305 DEBUG [t6 PropertiesCacheLoadThread] - load End 
+2018-03-21 21:36:56.305 DEBUG [t6 PropertiesCacheLoadThread] - End 
+2018-03-21 21:36:56.306 DEBUG [t6] - after reload properties: {application_name=Fun Application1521682607085}-576457868 
+2018-03-21 21:36:56.306 DEBUG [t6] - properties: {application_name=Fun Application1521682607085}-576457868 
+2018-03-21 21:36:56.306 DEBUG [t6] - run End 
+2018-03-21 21:37:01.100 DEBUG [t4] - after reload properties: {application_name=Fun Application1521682607085}-575564117 
+2018-03-21 21:37:01.101 DEBUG [t4 PropertiesCacheLoadThread] - load End 
+2018-03-21 21:37:01.101 DEBUG [t4] - properties: {application_name=Fun Application1521682616097}-575564117 
+2018-03-21 21:37:01.101 DEBUG [t4 PropertiesCacheLoadThread] - End 
+2018-03-21 21:37:01.102 DEBUG [t4] - run End 
+2018-03-21 21:37:01.102 DEBUG [main] - main End 
+2018-03-21 21:37:28.390 DEBUG [main] - main Begin 
+2018-03-21 21:37:28.393 DEBUG [t1] - run Begin 
+2018-03-21 21:37:28.394 DEBUG [t1] - load Begin 
+2018-03-21 21:37:28.394 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 21:37:28.395 DEBUG [t1] - about to sleep 5 secs 
+2018-03-21 21:37:30.399 DEBUG [t2] - run Begin 
+2018-03-21 21:37:33.400 DEBUG [t1] - load End 
+2018-03-21 21:37:33.401 DEBUG [t2] - properties: {application_name=Fun Application1521682648395}-571813591 
+2018-03-21 21:37:33.401 DEBUG [t1] - properties: {application_name=Fun Application1521682648395}-571813591 
+2018-03-21 21:37:33.402 DEBUG [t2] - run End 
+2018-03-21 21:37:33.402 DEBUG [t1] - run End 
+2018-03-21 21:37:33.405 DEBUG [t4] - run Begin 
+2018-03-21 21:37:33.406 DEBUG [t4] - isExpired: false 
+2018-03-21 21:37:33.406 DEBUG [t4] - properties: {application_name=Fun Application1521682648395}-571813591 
+2018-03-21 21:37:33.406 DEBUG [t4] - run End 
+2018-03-21 21:37:33.505 DEBUG [t5] - run Begin 
+2018-03-21 21:37:33.507 DEBUG [t5] - isExpired: false 
+2018-03-21 21:37:33.507 DEBUG [t5] - properties: {application_name=Fun Application1521682648395}-571813591 
+2018-03-21 21:37:33.507 DEBUG [t5] - run End 
+2018-03-21 21:37:33.607 DEBUG [t6] - run Begin 
+2018-03-21 21:37:33.608 DEBUG [t6] - isExpired: false 
+2018-03-21 21:37:33.608 DEBUG [t6] - properties: {application_name=Fun Application1521682648395}-571813591 
+2018-03-21 21:37:33.609 DEBUG [t6] - run End 
+2018-03-21 21:37:33.709 DEBUG [main] - main End 
+2018-03-21 21:37:54.571 DEBUG [main] - main Begin 
+2018-03-21 21:37:54.574 DEBUG [t1] - run Begin 
+2018-03-21 21:37:54.574 DEBUG [t1] - load Begin 
+2018-03-21 21:37:54.575 DEBUG [t1] - isLoadInProgress: false 
+2018-03-21 21:37:54.575 DEBUG [t1] - about to sleep 5 secs 
+2018-03-21 21:37:56.580 DEBUG [t2] - run Begin 
+2018-03-21 21:37:59.576 DEBUG [t1] - load End 
+2018-03-21 21:37:59.577 DEBUG [t2] - properties: {application_name=Fun Application1521682674575}-570077852 
+2018-03-21 21:37:59.577 DEBUG [t1] - properties: {application_name=Fun Application1521682674575}-570077852 
+2018-03-21 21:37:59.578 DEBUG [t1] - run End 
+2018-03-21 21:37:59.578 DEBUG [t2] - run End 
+2018-03-21 21:38:04.582 DEBUG [t4] - run Begin 
+2018-03-21 21:38:04.583 DEBUG [t4] - isExpired, c after loadCompleted 
+2018-03-21 21:38:04.583 DEBUG [t4] - isExpired: true 
+2018-03-21 21:38:04.585 DEBUG [t4] - isExpired thread.join(5000) 
+2018-03-21 21:38:04.585 DEBUG [t4 PropertiesCacheLoadThread] - Begin 
+2018-03-21 21:38:04.586 DEBUG [t4 PropertiesCacheLoadThread] - load Begin 
+2018-03-21 21:38:04.586 DEBUG [t4 PropertiesCacheLoadThread] - isLoadInProgress: false 
+2018-03-21 21:38:04.587 DEBUG [t4 PropertiesCacheLoadThread] - about to sleep 5 secs 
+2018-03-21 21:38:04.685 DEBUG [t5] - run Begin 
+2018-03-21 21:38:04.687 DEBUG [t5] - isExpired, c after loadCompleted 
+2018-03-21 21:38:04.687 DEBUG [t5] - isExpired: true 
+2018-03-21 21:38:04.687 DEBUG [t5] - isExpired thread.join(5000) 
+2018-03-21 21:38:04.688 DEBUG [t5 PropertiesCacheLoadThread] - Begin 
+2018-03-21 21:38:04.689 DEBUG [t5 PropertiesCacheLoadThread] - load Begin 
+2018-03-21 21:38:04.689 DEBUG [t5 PropertiesCacheLoadThread] - isLoadInProgress, started after completed 
+2018-03-21 21:38:04.689 DEBUG [t5 PropertiesCacheLoadThread] - isLoadInProgress: true 
+2018-03-21 21:38:04.689 DEBUG [t5 PropertiesCacheLoadThread] - load End 
+2018-03-21 21:38:04.690 DEBUG [t5 PropertiesCacheLoadThread] - End 
+2018-03-21 21:38:04.690 DEBUG [t5] - after reload properties: {application_name=Fun Application1521682674575}-570077852 
+2018-03-21 21:38:04.690 DEBUG [t5] - properties: {application_name=Fun Application1521682674575}-570077852 
+2018-03-21 21:38:04.691 DEBUG [t5] - run End 
+2018-03-21 21:38:04.788 DEBUG [t6] - run Begin 
+2018-03-21 21:38:04.790 DEBUG [t6] - isExpired, c after loadCompleted 
+2018-03-21 21:38:04.791 DEBUG [t6] - isExpired: true 
+2018-03-21 21:38:04.791 DEBUG [t6] - isExpired thread.join(5000) 
+2018-03-21 21:38:04.792 DEBUG [t6 PropertiesCacheLoadThread] - Begin 
+2018-03-21 21:38:04.793 DEBUG [t6 PropertiesCacheLoadThread] - load Begin 
+2018-03-21 21:38:04.793 DEBUG [t6 PropertiesCacheLoadThread] - isLoadInProgress, started after completed 
+2018-03-21 21:38:04.793 DEBUG [t6 PropertiesCacheLoadThread] - isLoadInProgress: true 
+2018-03-21 21:38:04.794 DEBUG [t6 PropertiesCacheLoadThread] - load End 
+2018-03-21 21:38:04.794 DEBUG [t6 PropertiesCacheLoadThread] - End 
+2018-03-21 21:38:04.795 DEBUG [t6] - after reload properties: {application_name=Fun Application1521682674575}-570077852 
+2018-03-21 21:38:04.796 DEBUG [t6] - properties: {application_name=Fun Application1521682674575}-570077852 
+2018-03-21 21:38:04.796 DEBUG [t6] - run End 
+2018-03-21 21:38:09.591 DEBUG [t4 PropertiesCacheLoadThread] - load End 
+2018-03-21 21:38:09.590 DEBUG [t4] - after reload properties: {application_name=Fun Application1521682674575}-569154299 
+2018-03-21 21:38:09.591 DEBUG [t4 PropertiesCacheLoadThread] - End 
+2018-03-21 21:38:09.591 DEBUG [t4] - properties: {application_name=Fun Application1521682684586}-569154299 
+2018-03-21 21:38:09.592 DEBUG [t4] - run End 
+2018-03-21 21:38:09.592 DEBUG [main] - main End 
+2018-03-22 20:26:07.056 DEBUG [main] - logDebugBegin main Begin 
+2018-03-22 20:26:07.060 DEBUG [t1] - logDebugBegin run Begin 
+2018-03-22 20:26:07.061 DEBUG [t1] - logDebugBegin load Begin 
+2018-03-22 20:26:07.061 DEBUG [t1] - isLoadInProgress isLoadInProgress: false 
+2018-03-22 20:26:07.061 DEBUG [t1] - load about to sleep 5 secs 
+2018-03-22 20:26:08.164 DEBUG [t2] - logDebugBegin run Begin 
+2018-03-22 20:26:12.067 DEBUG [t1] - logDebugEnd load End 
+2018-03-22 20:26:12.068 DEBUG [t1] - run properties: {application_name=Fun Application1521764767061}235660428 
+2018-03-22 20:26:12.068 DEBUG [t2] - run properties: {application_name=Fun Application1521764767061}235660428 
+2018-03-22 20:26:12.069 DEBUG [t2] - logDebugEnd run End 
+2018-03-22 20:26:12.069 DEBUG [t1] - logDebugEnd run End 
+2018-03-22 20:26:12.069 DEBUG [main] - logDebugEnd main End 
+2018-03-22 20:29:04.769 DEBUG [main] - main Begin 
+2018-03-22 20:29:04.772 DEBUG [t1] - run Begin 
+2018-03-22 20:29:04.773 DEBUG [t1] - load Begin 
+2018-03-22 20:29:04.773 DEBUG [t1] - isLoadInProgress isLoadInProgress: false 
+2018-03-22 20:29:04.773 DEBUG [t1] - load about to sleep 5 secs 
+2018-03-22 20:29:05.875 DEBUG [t2] - run Begin 
+2018-03-22 20:29:09.779 DEBUG [t1] - load End 
+2018-03-22 20:29:09.780 DEBUG [t1] - run properties: {application_name=Fun Application1521764944773}289809415 
+2018-03-22 20:29:09.780 DEBUG [t2] - run properties: {application_name=Fun Application1521764944773}289809415 
+2018-03-22 20:29:09.781 DEBUG [t1] - run End 
+2018-03-22 20:29:09.781 DEBUG [t2] - run End 
+2018-03-22 20:29:09.781 DEBUG [main] - main End 
+2018-03-22 20:31:23.697 DEBUG [main] - main Begin 
+2018-03-22 20:31:23.702 DEBUG [t1] - run Begin 
+2018-03-22 20:31:23.703 DEBUG [t1] - load Begin 
+2018-03-22 20:31:23.703 DEBUG [t1] - isLoadInProgress return: false 
+2018-03-22 20:31:23.703 DEBUG [t1] - load about to sleep 5 secs 
+2018-03-22 20:31:24.802 DEBUG [t2] - run Begin 
+2018-03-22 20:31:28.709 DEBUG [t1] - load End 
+2018-03-22 20:31:28.710 DEBUG [t1] - run properties: {application_name=Fun Application1521765083703}924363401 
+2018-03-22 20:31:28.711 DEBUG [t2] - run properties: {application_name=Fun Application1521765083703}924363401 
+2018-03-22 20:31:28.711 DEBUG [t1] - run End 
+2018-03-22 20:31:28.711 DEBUG [t2] - run End 
+2018-03-22 20:31:28.712 DEBUG [main] - main End 
+2018-03-22 21:08:53.356 DEBUG [main] - main Begin 
+2018-03-22 21:08:53.359 DEBUG [t1] - run Begin 
+2018-03-22 21:08:53.360 DEBUG [t1] - load Begin 
+2018-03-22 21:08:53.361 DEBUG [t1 PropertiesCacheLoadThread] - run Begin 
+2018-03-22 21:08:53.361 DEBUG [t1 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-22 21:08:53.362 DEBUG [t1 PropertiesCacheLoadThread] - isLoadInProgress return: false 
+2018-03-22 21:08:53.362 DEBUG [t1 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-22 21:08:54.463 DEBUG [t2] - run Begin 
+2018-03-22 21:08:54.464 DEBUG [t2] - load Begin 
+2018-03-22 21:08:58.368 DEBUG [t1 PropertiesCacheLoadThread] - loadData End 
+2018-03-22 21:08:58.368 DEBUG [t1 PropertiesCacheLoadThread] - run End 
+2018-03-22 21:08:58.369 DEBUG [t2] - load End 
+2018-03-22 21:08:58.369 DEBUG [t1] - load End 
+2018-03-22 21:08:58.370 DEBUG [t1] - run properties: {application_name=Fun Application1521767333362}-1514199240 
+2018-03-22 21:08:58.370 DEBUG [t2] - run properties: {application_name=Fun Application1521767333362}-1514199240 
+2018-03-22 21:08:58.370 DEBUG [t1] - run End 
+2018-03-22 21:08:58.371 DEBUG [t2] - run End 
+2018-03-22 21:08:58.371 DEBUG [main] - main End 
+2018-03-22 21:21:40.156 DEBUG [main] - main Begin 
+2018-03-22 21:21:40.160 DEBUG [t1] - run Begin 
+2018-03-22 21:21:40.160 DEBUG [t1] - load Begin 
+2018-03-22 21:21:40.161 DEBUG [t1 PropertiesCacheLoadThread] - run Begin 
+2018-03-22 21:21:40.161 DEBUG [t1 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-22 21:21:40.162 DEBUG [t1 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-22 21:21:45.163 DEBUG [t1 PropertiesCacheLoadThread] - loadData End 
+2018-03-22 21:21:45.164 DEBUG [t1 PropertiesCacheLoadThread] - run End 
+2018-03-22 21:21:45.165 DEBUG [t1] - load End 
+2018-03-22 21:21:45.165 DEBUG [t1] - run properties: {application_name=Fun Application1521768100162}-686946791 
+2018-03-22 21:21:45.166 DEBUG [t1] - run End 
+2018-03-22 21:21:45.264 DEBUG [t2] - run Begin 
+2018-03-22 21:21:45.266 DEBUG [t2] - isExpired : false 
+2018-03-22 21:21:45.267 DEBUG [t2] - run properties: {application_name=Fun Application1521768100162}-686946791 
+2018-03-22 21:21:45.267 DEBUG [t2] - run End 
+2018-03-22 21:21:45.369 DEBUG [main] - main End 
+2018-03-22 21:23:14.157 DEBUG [main] - main Begin 
+2018-03-22 21:23:14.160 DEBUG [t1] - run Begin 
+2018-03-22 21:23:14.161 DEBUG [t1] - load Begin 
+2018-03-22 21:23:14.162 DEBUG [t1 PropertiesCacheLoadThread] - run Begin 
+2018-03-22 21:23:14.162 DEBUG [t1 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-22 21:23:14.162 DEBUG [t1 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-22 21:23:19.168 DEBUG [t1 PropertiesCacheLoadThread] - loadData End 
+2018-03-22 21:23:19.168 DEBUG [t1 PropertiesCacheLoadThread] - run End 
+2018-03-22 21:23:19.169 DEBUG [t1] - load End 
+2018-03-22 21:23:19.170 DEBUG [t1] - run properties: {application_name=Fun Application1521768194162}-678515950 
+2018-03-22 21:23:19.170 DEBUG [t1] - run End 
+2018-03-22 21:23:20.261 DEBUG [t2] - run Begin 
+2018-03-22 21:23:20.263 DEBUG [t2] - isExpired c after loadCompleted 
+2018-03-22 21:23:20.263 DEBUG [t2] - isExpired : true 
+2018-03-22 21:23:20.264 DEBUG [t2] - load Begin 
+2018-03-22 21:23:20.265 DEBUG [t2 PropertiesCacheLoadThread] - run Begin 
+2018-03-22 21:23:20.266 DEBUG [t2 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-22 21:23:20.266 DEBUG [t2 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-22 21:23:25.270 DEBUG [t2] - load End 
+2018-03-22 21:23:25.270 DEBUG [t2 PropertiesCacheLoadThread] - loadData End 
+2018-03-22 21:23:25.271 DEBUG [t2] - run properties: {application_name=Fun Application1521768200266}-659365251 
+2018-03-22 21:23:25.271 DEBUG [t2 PropertiesCacheLoadThread] - run End 
+2018-03-22 21:23:25.271 DEBUG [t2] - run End 
+2018-03-22 21:23:25.272 DEBUG [main] - main End 
+2018-03-22 21:24:53.579 DEBUG [main] - main Begin 
+2018-03-22 21:24:53.582 DEBUG [t1] - run Begin 
+2018-03-22 21:24:53.583 DEBUG [t1] - load Begin 
+2018-03-22 21:24:53.583 DEBUG [t1 PropertiesCacheLoadThread] - run Begin 
+2018-03-22 21:24:53.584 DEBUG [t1 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-22 21:24:53.584 DEBUG [t1 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-22 21:24:58.590 DEBUG [t1 PropertiesCacheLoadThread] - loadData End 
+2018-03-22 21:24:58.590 DEBUG [t1 PropertiesCacheLoadThread] - run End 
+2018-03-22 21:24:58.591 DEBUG [t1] - load End 
+2018-03-22 21:24:58.591 DEBUG [t1] - run properties: {application_name=Fun Application1521768293584}-650830186 
+2018-03-22 21:24:58.592 DEBUG [t1] - run End 
+2018-03-22 21:24:59.683 DEBUG [t2] - run Begin 
+2018-03-22 21:24:59.685 DEBUG [t2] - isExpired c after loadCompleted 
+2018-03-22 21:24:59.685 DEBUG [t2] - isExpired : true 
+2018-03-22 21:24:59.686 DEBUG [t2] - load Begin 
+2018-03-22 21:24:59.686 DEBUG [t2 PropertiesCacheLoadThread] - run Begin 
+2018-03-22 21:24:59.687 DEBUG [t2 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-22 21:24:59.688 DEBUG [t2 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-22 21:25:00.689 DEBUG [t2] - load End 
+2018-03-22 21:25:00.689 DEBUG [t2] - run properties: {application_name=Fun Application1521768293584}-650830186 
+2018-03-22 21:25:00.690 DEBUG [t2] - run End 
+2018-03-22 21:25:00.690 DEBUG [main] - main End 
+2018-03-22 21:25:04.693 DEBUG [t2 PropertiesCacheLoadThread] - loadData End 
+2018-03-22 21:25:04.693 DEBUG [t2 PropertiesCacheLoadThread] - run End 
+2018-03-22 21:27:49.591 DEBUG [main] - main Begin 
+2018-03-22 21:27:49.595 DEBUG [t1] - run Begin 
+2018-03-22 21:27:49.596 DEBUG [t1] - load Begin 
+2018-03-22 21:27:49.596 DEBUG [t1] - load loadThread.join() 
+2018-03-22 21:27:49.596 DEBUG [t1 PropertiesCacheLoadThread] - run Begin 
+2018-03-22 21:27:49.597 DEBUG [t1 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-22 21:27:49.597 DEBUG [t1 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-22 21:27:54.599 DEBUG [t1 PropertiesCacheLoadThread] - loadData End 
+2018-03-22 21:27:54.599 DEBUG [t1 PropertiesCacheLoadThread] - run End 
+2018-03-22 21:27:54.600 DEBUG [t1] - load End 
+2018-03-22 21:27:54.600 DEBUG [t1] - run properties: {application_name=Fun Application1521768469597}-596163655 
+2018-03-22 21:27:54.601 DEBUG [t1] - run End 
+2018-03-22 21:27:55.697 DEBUG [t2] - run Begin 
+2018-03-22 21:27:55.699 DEBUG [t2] - isExpired c after loadCompleted 
+2018-03-22 21:27:55.699 DEBUG [t2] - isExpired : true 
+2018-03-22 21:27:55.699 DEBUG [t2] - load Begin 
+2018-03-22 21:27:55.700 DEBUG [t2] - load loadThread.join(1000) 
+2018-03-22 21:27:55.700 DEBUG [t2 PropertiesCacheLoadThread] - run Begin 
+2018-03-22 21:27:55.701 DEBUG [t2 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-22 21:27:55.702 DEBUG [t2 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-22 21:27:56.706 DEBUG [t2] - load End 
+2018-03-22 21:27:56.707 DEBUG [t2] - run properties: {application_name=Fun Application1521768469597}-596163655 
+2018-03-22 21:27:56.707 DEBUG [t2] - run End 
+2018-03-22 21:27:56.708 DEBUG [main] - main End 
+2018-03-22 21:28:00.707 DEBUG [t2 PropertiesCacheLoadThread] - loadData End 
+2018-03-22 21:28:00.707 DEBUG [t2 PropertiesCacheLoadThread] - run End 
+2018-03-22 21:31:46.477 DEBUG [main] - main Begin 
+2018-03-22 21:31:46.480 DEBUG [t1] - run Begin 
+2018-03-22 21:31:46.481 DEBUG [t1] - load Begin 
+2018-03-22 21:31:46.481 DEBUG [t1] - load loadThread.join() 
+2018-03-22 21:31:46.481 DEBUG [t1 PropertiesCacheLoadThread] - run Begin 
+2018-03-22 21:31:46.482 DEBUG [t1 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-22 21:31:46.482 DEBUG [t1 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-22 21:31:51.488 INFO  [t1 PropertiesCacheLoadThread] - loadData  for PropertiesCache completed in x ms, hashCode -514859166 
+2018-03-22 21:31:51.489 DEBUG [t1 PropertiesCacheLoadThread] - loadData End 
+2018-03-22 21:31:51.489 DEBUG [t1 PropertiesCacheLoadThread] - run End 
+2018-03-22 21:31:51.490 DEBUG [t1] - load End 
+2018-03-22 21:31:51.490 DEBUG [t1] - run properties: {application_name=Fun Application1521768706482}-514859166 
+2018-03-22 21:31:51.491 DEBUG [t1] - run End 
+2018-03-22 21:31:52.582 DEBUG [t2] - run Begin 
+2018-03-22 21:31:52.584 DEBUG [t2] - isExpired c after loadCompleted 
+2018-03-22 21:31:52.584 DEBUG [t2] - isExpired : true 
+2018-03-22 21:31:52.584 DEBUG [t2] - load Begin 
+2018-03-22 21:31:52.585 DEBUG [t2] - load loadThread.join(1000) 
+2018-03-22 21:31:52.585 DEBUG [t2 PropertiesCacheLoadThread] - run Begin 
+2018-03-22 21:31:52.586 DEBUG [t2 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-22 21:31:52.586 DEBUG [t2 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-22 21:31:53.590 DEBUG [t2] - load End 
+2018-03-22 21:31:53.591 DEBUG [t2] - run properties: {application_name=Fun Application1521768706482}-514859166 
+2018-03-22 21:31:53.591 DEBUG [t2] - run End 
+2018-03-22 21:31:53.592 DEBUG [main] - main End 
+2018-03-22 21:31:57.591 INFO  [t2 PropertiesCacheLoadThread] - loadData  for PropertiesCache completed in x ms, hashCode -514184872 
+2018-03-22 21:31:57.592 DEBUG [t2 PropertiesCacheLoadThread] - loadData End 
+2018-03-22 21:31:57.592 DEBUG [t2 PropertiesCacheLoadThread] - run End 
+2018-03-22 21:49:41.331 DEBUG [main] - main Begin 
+2018-03-22 21:49:41.334 DEBUG [t1] - run Begin 
+2018-03-22 21:49:41.335 DEBUG [t1] - load Begin 
+2018-03-22 21:49:41.336 DEBUG [t1] - load loadThread.join() 
+2018-03-22 21:49:41.336 DEBUG [t1 PropertiesCacheLoadThread] - run Begin 
+2018-03-22 21:49:41.336 DEBUG [t1 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-22 21:49:41.336 DEBUG [t1 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-22 21:49:46.341 INFO  [t1 PropertiesCacheLoadThread] - loadData completed in x ms, data.hashCode 378702996 
+2018-03-22 21:49:46.341 DEBUG [t1 PropertiesCacheLoadThread] - loadData End 
+2018-03-22 21:49:46.342 DEBUG [t1 PropertiesCacheLoadThread] - run End 
+2018-03-22 21:49:46.342 DEBUG [t1] - load End 
+2018-03-22 21:49:46.343 DEBUG [t1] - run properties: {application_name=Fun Application1521769781336}378702996 
+2018-03-22 21:49:46.343 DEBUG [t1] - run End 
+2018-03-22 21:49:47.436 DEBUG [t2] - run Begin 
+2018-03-22 21:49:47.437 DEBUG [t2] - isExpired c after loadCompleted 
+2018-03-22 21:49:47.437 DEBUG [t2] - isExpired true 
+2018-03-22 21:49:47.437 DEBUG [t2] - load Begin 
+2018-03-22 21:49:47.438 DEBUG [t2] - load loadThread.join(1000) 
+2018-03-22 21:49:47.438 DEBUG [t2 PropertiesCacheLoadThread] - run Begin 
+2018-03-22 21:49:47.438 DEBUG [t2 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-22 21:49:47.439 DEBUG [t2 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-22 21:49:48.441 DEBUG [t2] - load End 
+2018-03-22 21:49:48.441 DEBUG [t2] - run properties: {application_name=Fun Application1521769781336}378702996 
+2018-03-22 21:49:48.442 DEBUG [t2] - run End 
+2018-03-22 21:49:48.442 DEBUG [main] - main End 
+2018-03-22 21:49:52.443 INFO  [t2 PropertiesCacheLoadThread] - loadData completed in x ms, data.hashCode 379013782 
+2018-03-22 21:49:52.443 DEBUG [t2 PropertiesCacheLoadThread] - loadData End 
+2018-03-22 21:49:52.444 DEBUG [t2 PropertiesCacheLoadThread] - run End 
+2018-03-22 21:50:38.311 DEBUG [main] - main Begin 
+2018-03-22 21:50:38.314 DEBUG [t1] - run Begin 
+2018-03-22 21:50:38.314 DEBUG [t2] - run Begin 
+2018-03-22 21:50:38.314 DEBUG [t3] - run Begin 
+2018-03-22 21:50:38.314 DEBUG [t4] - run Begin 
+2018-03-22 21:50:38.315 DEBUG [t5] - run Begin 
+2018-03-22 21:50:38.315 DEBUG [t6] - run Begin 
+2018-03-22 21:50:38.315 DEBUG [t1] - load Begin 
+2018-03-22 21:50:38.315 DEBUG [t3] - load Begin 
+2018-03-22 21:50:38.315 DEBUG [t5] - load Begin 
+2018-03-22 21:50:38.315 DEBUG [t6] - load Begin 
+2018-03-22 21:50:38.315 DEBUG [t4] - load Begin 
+2018-03-22 21:50:38.315 DEBUG [t2] - load Begin 
+2018-03-22 21:50:38.316 DEBUG [t2] - load loadThread.join() 
+2018-03-22 21:50:38.316 DEBUG [t6] - load loadThread.join() 
+2018-03-22 21:50:38.316 DEBUG [t5] - load loadThread.join() 
+2018-03-22 21:50:38.316 DEBUG [t1] - load loadThread.join() 
+2018-03-22 21:50:38.316 DEBUG [t4] - load loadThread.join() 
+2018-03-22 21:50:38.316 DEBUG [t1 PropertiesCacheLoadThread] - run Begin 
+2018-03-22 21:50:38.316 DEBUG [t3] - load loadThread.join() 
+2018-03-22 21:50:38.316 DEBUG [t1 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-22 21:50:38.316 DEBUG [t7] - run Begin 
+2018-03-22 21:50:38.316 DEBUG [t8] - run Begin 
+2018-03-22 21:50:38.317 DEBUG [t1 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-22 21:50:38.317 DEBUG [t8] - load Begin 
+2018-03-22 21:50:38.317 DEBUG [t7] - load Begin 
+2018-03-22 21:50:38.317 DEBUG [t8] - load loadThread.join() 
+2018-03-22 21:50:38.317 DEBUG [t7] - load loadThread.join() 
+2018-03-22 21:50:38.317 DEBUG [t9] - run Begin 
+2018-03-22 21:50:38.318 DEBUG [t9] - load Begin 
+2018-03-22 21:50:38.318 DEBUG [t9] - load loadThread.join() 
+2018-03-22 21:50:38.318 DEBUG [t10] - run Begin 
+2018-03-22 21:50:38.319 DEBUG [t10] - load Begin 
+2018-03-22 21:50:38.319 DEBUG [t10] - load loadThread.join() 
+2018-03-22 21:50:43.323 INFO  [t1 PropertiesCacheLoadThread] - loadData completed in x ms, data.hashCode 402923033 
+2018-03-22 21:50:43.323 DEBUG [t1 PropertiesCacheLoadThread] - loadData End 
+2018-03-22 21:50:43.324 DEBUG [t1 PropertiesCacheLoadThread] - run End 
+2018-03-22 21:50:43.324 DEBUG [t2] - load End 
+2018-03-22 21:50:43.324 DEBUG [t10] - load End 
+2018-03-22 21:50:43.325 DEBUG [t3] - load End 
+2018-03-22 21:50:43.325 DEBUG [t4] - load End 
+2018-03-22 21:50:43.325 DEBUG [t1] - load End 
+2018-03-22 21:50:43.325 DEBUG [t2] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:43.325 DEBUG [t3] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:43.325 DEBUG [t6] - load End 
+2018-03-22 21:50:43.325 DEBUG [t4] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:43.325 DEBUG [t2] - run End 
+2018-03-22 21:50:43.325 DEBUG [t6] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:43.326 DEBUG [t4] - run End 
+2018-03-22 21:50:43.324 DEBUG [t7] - load End 
+2018-03-22 21:50:43.326 DEBUG [t6] - run End 
+2018-03-22 21:50:43.326 DEBUG [t7] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:43.324 DEBUG [t9] - load End 
+2018-03-22 21:50:43.326 DEBUG [t10] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:43.327 DEBUG [t7] - run End 
+2018-03-22 21:50:43.327 DEBUG [t9] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:43.327 DEBUG [t10] - run End 
+2018-03-22 21:50:43.325 DEBUG [t3] - run End 
+2018-03-22 21:50:43.327 DEBUG [t9] - run End 
+2018-03-22 21:50:43.325 DEBUG [t5] - load End 
+2018-03-22 21:50:43.325 DEBUG [t8] - load End 
+2018-03-22 21:50:43.327 DEBUG [t1] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:43.328 DEBUG [t5] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:43.328 DEBUG [t8] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:43.328 DEBUG [t1] - run End 
+2018-03-22 21:50:43.328 DEBUG [t5] - run End 
+2018-03-22 21:50:43.328 DEBUG [t8] - run End 
+2018-03-22 21:50:44.422 DEBUG [t11] - run Begin 
+2018-03-22 21:50:44.424 DEBUG [t11] - isExpired c after loadCompleted 
+2018-03-22 21:50:44.424 DEBUG [t11] - isExpired true 
+2018-03-22 21:50:44.424 DEBUG [t11] - load Begin 
+2018-03-22 21:50:44.425 DEBUG [t11] - load loadThread.join(1000) 
+2018-03-22 21:50:44.425 DEBUG [t11 PropertiesCacheLoadThread] - run Begin 
+2018-03-22 21:50:44.426 DEBUG [t11 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-22 21:50:44.427 DEBUG [t11 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-22 21:50:44.525 DEBUG [t12] - run Begin 
+2018-03-22 21:50:44.527 DEBUG [t12] - isExpired c after loadCompleted 
+2018-03-22 21:50:44.527 DEBUG [t12] - isExpired true 
+2018-03-22 21:50:44.527 DEBUG [t12] - load Begin 
+2018-03-22 21:50:44.528 DEBUG [t12] - load loadThread.join(1000) 
+2018-03-22 21:50:44.626 DEBUG [t13] - run Begin 
+2018-03-22 21:50:44.630 DEBUG [t13] - isExpired c after loadCompleted 
+2018-03-22 21:50:44.631 DEBUG [t13] - isExpired true 
+2018-03-22 21:50:44.632 DEBUG [t13] - load Begin 
+2018-03-22 21:50:44.632 DEBUG [t13] - load loadThread.join(1000) 
+2018-03-22 21:50:44.726 DEBUG [t14] - run Begin 
+2018-03-22 21:50:44.727 DEBUG [t14] - isExpired c after loadCompleted 
+2018-03-22 21:50:44.727 DEBUG [t14] - isExpired true 
+2018-03-22 21:50:44.727 DEBUG [t14] - load Begin 
+2018-03-22 21:50:44.727 DEBUG [t14] - load loadThread.join(1000) 
+2018-03-22 21:50:44.828 DEBUG [t15] - run Begin 
+2018-03-22 21:50:44.829 DEBUG [t15] - isExpired c after loadCompleted 
+2018-03-22 21:50:44.829 DEBUG [t15] - isExpired true 
+2018-03-22 21:50:44.830 DEBUG [t15] - load Begin 
+2018-03-22 21:50:44.830 DEBUG [t15] - load loadThread.join(1000) 
+2018-03-22 21:50:44.931 DEBUG [t16] - run Begin 
+2018-03-22 21:50:44.933 DEBUG [t16] - isExpired c after loadCompleted 
+2018-03-22 21:50:44.933 DEBUG [t16] - isExpired true 
+2018-03-22 21:50:44.933 DEBUG [t16] - load Begin 
+2018-03-22 21:50:44.933 DEBUG [t16] - load loadThread.join(1000) 
+2018-03-22 21:50:45.032 DEBUG [t17] - run Begin 
+2018-03-22 21:50:45.035 DEBUG [t17] - isExpired c after loadCompleted 
+2018-03-22 21:50:45.035 DEBUG [t17] - isExpired true 
+2018-03-22 21:50:45.036 DEBUG [t17] - load Begin 
+2018-03-22 21:50:45.036 DEBUG [t17] - load loadThread.join(1000) 
+2018-03-22 21:50:45.134 DEBUG [t18] - run Begin 
+2018-03-22 21:50:45.135 DEBUG [t18] - isExpired c after loadCompleted 
+2018-03-22 21:50:45.136 DEBUG [t18] - isExpired true 
+2018-03-22 21:50:45.136 DEBUG [t18] - load Begin 
+2018-03-22 21:50:45.136 DEBUG [t18] - load loadThread.join(1000) 
+2018-03-22 21:50:45.235 DEBUG [t19] - run Begin 
+2018-03-22 21:50:45.236 DEBUG [t19] - isExpired c after loadCompleted 
+2018-03-22 21:50:45.236 DEBUG [t19] - isExpired true 
+2018-03-22 21:50:45.237 DEBUG [t19] - load Begin 
+2018-03-22 21:50:45.237 DEBUG [t19] - load loadThread.join(1000) 
+2018-03-22 21:50:45.338 DEBUG [t20] - run Begin 
+2018-03-22 21:50:45.339 DEBUG [t20] - isExpired c after loadCompleted 
+2018-03-22 21:50:45.339 DEBUG [t20] - isExpired true 
+2018-03-22 21:50:45.339 DEBUG [t20] - load Begin 
+2018-03-22 21:50:45.340 DEBUG [t20] - load loadThread.join(1000) 
+2018-03-22 21:50:45.428 DEBUG [t11] - load End 
+2018-03-22 21:50:45.429 DEBUG [t11] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:45.429 DEBUG [t11] - run End 
+2018-03-22 21:50:45.532 DEBUG [t12] - load End 
+2018-03-22 21:50:45.532 DEBUG [t12] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:45.533 DEBUG [t12] - run End 
+2018-03-22 21:50:45.637 DEBUG [t13] - load End 
+2018-03-22 21:50:45.638 DEBUG [t13] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:45.638 DEBUG [t13] - run End 
+2018-03-22 21:50:45.728 DEBUG [t14] - load End 
+2018-03-22 21:50:45.729 DEBUG [t14] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:45.729 DEBUG [t14] - run End 
+2018-03-22 21:50:45.832 DEBUG [t15] - load End 
+2018-03-22 21:50:45.833 DEBUG [t15] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:45.833 DEBUG [t15] - run End 
+2018-03-22 21:50:45.937 DEBUG [t16] - load End 
+2018-03-22 21:50:45.937 DEBUG [t16] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:45.937 DEBUG [t16] - run End 
+2018-03-22 21:50:46.042 DEBUG [t17] - load End 
+2018-03-22 21:50:46.042 DEBUG [t17] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:46.043 DEBUG [t17] - run End 
+2018-03-22 21:50:46.142 DEBUG [t18] - load End 
+2018-03-22 21:50:46.143 DEBUG [t18] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:46.144 DEBUG [t18] - run End 
+2018-03-22 21:50:46.242 DEBUG [t19] - load End 
+2018-03-22 21:50:46.243 DEBUG [t19] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:46.243 DEBUG [t19] - run End 
+2018-03-22 21:50:46.345 DEBUG [t20] - load End 
+2018-03-22 21:50:46.345 DEBUG [t20] - run properties: {application_name=Fun Application1521769838316}402923033 
+2018-03-22 21:50:46.345 DEBUG [t20] - run End 
+2018-03-22 21:50:46.346 DEBUG [main] - main End 
+2018-03-22 21:50:49.432 INFO  [t11 PropertiesCacheLoadThread] - loadData completed in x ms, data.hashCode 403728371 
+2018-03-22 21:50:49.433 DEBUG [t11 PropertiesCacheLoadThread] - loadData End 
+2018-03-22 21:50:49.433 DEBUG [t11 PropertiesCacheLoadThread] - run End 
