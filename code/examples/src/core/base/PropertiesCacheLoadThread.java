@@ -12,9 +12,9 @@ public class PropertiesCacheLoadThread extends Thread {
 	private PropertiesCache propertiesCache;
 	
 	public void run() {
-		Logger.logDebugBegin();
+		Logger.logBegin();
 		propertiesCache.loadData();
-		Logger.logDebugEnd();
+		Logger.logEnd();
 	}
 
 }

@@ -1562,3 +1562,267 @@
 2018-03-22 21:50:49.432 INFO  [t11 PropertiesCacheLoadThread] - loadData completed in x ms, data.hashCode 403728371 
 2018-03-22 21:50:49.433 DEBUG [t11 PropertiesCacheLoadThread] - loadData End 
 2018-03-22 21:50:49.433 DEBUG [t11 PropertiesCacheLoadThread] - run End 
+2018-03-23 23:30:04.073 DEBUG [main] - main Begin 
+2018-03-23 23:30:04.076 ERROR [main] - Exception: java.lang.ArithmeticException: / by zero at core.base.CacheTest.main(CacheTest.java:18) 
+2018-03-23 23:40:20.470 DEBUG [main] - main Begin 
+2018-03-23 23:40:20.473 ERROR [main] - Exception: java.lang.ArithmeticException: / by zero at core.base.CacheTest.main(CacheTest.java:18) 
+2018-03-23 23:43:48.196 DEBUG [main] - main Begin 
+2018-03-23 23:43:48.198 ERROR [main] - Exception: java.lang.ArithmeticException: / by zero at core.base.CacheTest.main(CacheTest.java:18) 
+2018-03-23 23:44:02.013 DEBUG [main] - main Begin 
+2018-03-23 23:44:02.016 ERROR [main] - Exception: java.lang.ArithmeticException: / by zero at core.base.CacheTest.main(CacheTest.java:18) 
+2018-03-23 23:46:05.057 DEBUG [main] - main Begin 
+2018-03-23 23:46:05.059 ERROR [main] - Exception: java.lang.ArithmeticException: / by zero at core.base.CacheTest.main(CacheTest.java:18) 
+2018-03-23 23:57:13.990 DEBUG [main] - main Begin 
+2018-03-23 23:57:13.993 ERROR [main] - Exception: java.lang.ArithmeticException: / by zero at core.base.CacheTest.main(CacheTest.java:18) 
+2018-03-23 23:57:53.456 DEBUG [main] - main Begin 
+2018-03-23 23:57:53.459 DEBUG [t1] - run Begin 
+2018-03-23 23:57:53.462 DEBUG [t1] - load Begin 
+2018-03-23 23:57:53.463 DEBUG [t1] - load loadThread.join() 
+2018-03-23 23:57:53.463 DEBUG [t1 PropertiesCacheLoadThread] - run Begin 
+2018-03-23 23:57:53.463 DEBUG [t1 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-23 23:57:53.463 DEBUG [t1 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-23 23:57:58.464 INFO  [t1 PropertiesCacheLoadThread] - loadData completed in x ms, data.hashCode 1865106970 
+2018-03-23 23:57:58.465 DEBUG [t1 PropertiesCacheLoadThread] - loadData End 
+2018-03-23 23:57:58.465 DEBUG [t1 PropertiesCacheLoadThread] - run End 
+2018-03-23 23:57:58.466 DEBUG [t1] - load End 
+2018-03-23 23:57:58.466 DEBUG [t1] - run properties: {application_name=Fun Application1521863873463}1865106970 
+2018-03-23 23:57:58.467 DEBUG [t1] - run End 
+2018-03-23 23:57:59.564 DEBUG [t2] - run Begin 
+2018-03-23 23:57:59.566 DEBUG [t2] - isExpired c after loadCompleted 
+2018-03-23 23:57:59.566 DEBUG [t2] - isExpired true 
+2018-03-23 23:57:59.567 DEBUG [t2] - load Begin 
+2018-03-23 23:57:59.567 DEBUG [t2] - load loadThread.join(1000) 
+2018-03-23 23:57:59.568 DEBUG [t2 PropertiesCacheLoadThread] - run Begin 
+2018-03-23 23:57:59.569 DEBUG [t2 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-23 23:57:59.569 DEBUG [t2 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-23 23:57:59.666 DEBUG [t3] - run Begin 
+2018-03-23 23:57:59.667 DEBUG [t3] - isExpired c after loadCompleted 
+2018-03-23 23:57:59.668 DEBUG [t3] - isExpired true 
+2018-03-23 23:57:59.668 DEBUG [t3] - load Begin 
+2018-03-23 23:57:59.668 DEBUG [t3] - load loadThread.join(1000) 
+2018-03-23 23:58:00.570 DEBUG [t2] - load End 
+2018-03-23 23:58:00.571 DEBUG [t2] - run properties: {application_name=Fun Application1521863873463}1865106970 
+2018-03-23 23:58:00.571 DEBUG [t2] - run End 
+2018-03-23 23:58:00.669 DEBUG [t3] - load End 
+2018-03-23 23:58:00.670 DEBUG [t3] - run properties: {application_name=Fun Application1521863873463}1865106970 
+2018-03-23 23:58:00.671 DEBUG [t3] - run End 
+2018-03-23 23:58:00.671 DEBUG [main] - main End 
+2018-03-23 23:58:04.578 INFO  [t2 PropertiesCacheLoadThread] - loadData completed in x ms, data.hashCode 1865155611 
+2018-03-23 23:58:04.583 DEBUG [t2 PropertiesCacheLoadThread] - loadData End 
+2018-03-23 23:58:04.584 DEBUG [t2 PropertiesCacheLoadThread] - run End 
+2018-03-24 00:02:24.325 DEBUG [main] - main Begin 
+2018-03-24 00:02:24.328 DEBUG [t1] - run Begin 
+2018-03-24 00:02:24.329 DEBUG [t1] - load Begin 
+2018-03-24 00:02:24.329 DEBUG [t1] - load loadThread.join() 
+2018-03-24 00:02:24.330 DEBUG [t1 PropertiesCacheLoadThread] - run Begin 
+2018-03-24 00:02:24.330 DEBUG [t1 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-24 00:02:24.330 DEBUG [t1 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-24 00:02:29.335 INFO  [t1 PropertiesCacheLoadThread] - loadData completed in x ms, data.hashCode -1746551111 
+2018-03-24 00:02:29.336 DEBUG [t1 PropertiesCacheLoadThread] - loadData End 
+2018-03-24 00:02:29.337 DEBUG [t1 PropertiesCacheLoadThread] - run End 
+2018-03-24 00:02:29.337 DEBUG [t1] - load End 
+2018-03-24 00:02:29.338 DEBUG [t1] - run properties: {application_name=Fun Application1521864144330}-1746551111 
+2018-03-24 00:02:29.338 DEBUG [t1] - run End 
+2018-03-24 00:02:30.433 DEBUG [t2] - run Begin 
+2018-03-24 00:02:30.434 DEBUG [t2] - isExpired c after loadCompleted 
+2018-03-24 00:02:30.435 DEBUG [t2] - isExpired true 
+2018-03-24 00:02:30.435 DEBUG [t2] - load Begin 
+2018-03-24 00:02:30.435 DEBUG [t2] - load loadThread.join(1000) 
+2018-03-24 00:02:30.435 DEBUG [t2 PropertiesCacheLoadThread] - run Begin 
+2018-03-24 00:02:30.436 DEBUG [t2 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-24 00:02:30.437 DEBUG [t2 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-24 00:02:30.536 DEBUG [t3] - run Begin 
+2018-03-24 00:02:30.537 DEBUG [t3] - isExpired c after loadCompleted 
+2018-03-24 00:02:30.538 DEBUG [t3] - isExpired true 
+2018-03-24 00:02:30.538 DEBUG [t3] - load Begin 
+2018-03-24 00:02:30.539 DEBUG [t3] - load loadThread.join(1000) 
+2018-03-24 00:02:31.437 DEBUG [t2] - load End 
+2018-03-24 00:02:31.440 DEBUG [t2] - run properties: {application_name=Fun Application1521864144330}-1746551111 
+2018-03-24 00:02:31.441 DEBUG [t2] - run End 
+2018-03-24 00:02:31.541 DEBUG [t3] - load End 
+2018-03-24 00:02:31.542 DEBUG [t3] - run properties: {application_name=Fun Application1521864144330}-1746551111 
+2018-03-24 00:02:31.542 DEBUG [t3] - run End 
+2018-03-24 00:02:31.543 DEBUG [main] - main End 
+2018-03-24 00:02:35.437 INFO  [t2 PropertiesCacheLoadThread] - loadData completed in x ms, data.hashCode -1745876886 
+2018-03-24 00:02:35.438 DEBUG [t2 PropertiesCacheLoadThread] - loadData End 
+2018-03-24 00:02:35.439 DEBUG [t2 PropertiesCacheLoadThread] - run End 
+2018-03-24 20:06:52.665 DEBUG [main] - main Begin 
+2018-03-24 20:06:52.668 DEBUG [t1] - run Begin 
+2018-03-24 20:06:52.670 DEBUG [t1] - load Begin 
+2018-03-24 20:06:52.670 DEBUG [t1] - load loadThread.join() 
+2018-03-24 20:06:52.670 DEBUG [t1 PropertiesCacheLoadThread] - run Begin 
+2018-03-24 20:06:52.671 DEBUG [t1 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-24 20:06:52.671 DEBUG [t1 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-24 20:06:57.672 INFO  [t1 PropertiesCacheLoadThread] - loadData completed in x ms, data.hashCode 1665434623 
+2018-03-24 20:06:57.673 DEBUG [t1 PropertiesCacheLoadThread] - loadData End 
+2018-03-24 20:06:57.673 DEBUG [t1 PropertiesCacheLoadThread] - run End 
+2018-03-24 20:06:57.674 DEBUG [t1] - load End 
+2018-03-24 20:06:57.674 DEBUG [t1] - run properties: {application_name=Fun Application1521936412671}1665434623 
+2018-03-24 20:06:57.675 DEBUG [t1] - run End 
+2018-03-24 20:06:58.769 DEBUG [t2] - run Begin 
+2018-03-24 20:06:58.771 DEBUG [t2] - isExpired c after loadCompleted 
+2018-03-24 20:06:58.771 DEBUG [t2] - isExpired true 
+2018-03-24 20:06:58.772 DEBUG [t2] - load Begin 
+2018-03-24 20:06:58.772 DEBUG [t2] - load loadThread.join(1000) 
+2018-03-24 20:06:58.772 DEBUG [t2 PropertiesCacheLoadThread] - run Begin 
+2018-03-24 20:06:58.774 DEBUG [t2 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-24 20:06:58.774 DEBUG [t2 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-24 20:06:58.872 DEBUG [t3] - run Begin 
+2018-03-24 20:06:58.874 DEBUG [t3] - isExpired c after loadCompleted 
+2018-03-24 20:06:58.874 DEBUG [t3] - isExpired true 
+2018-03-24 20:06:58.875 DEBUG [t3] - load Begin 
+2018-03-24 20:06:58.875 DEBUG [t3] - load loadThread.join(1000) 
+2018-03-24 20:06:59.773 DEBUG [t2] - load End 
+2018-03-24 20:06:59.773 DEBUG [t2] - run properties: {application_name=Fun Application1521936412671}1665434623 
+2018-03-24 20:06:59.774 DEBUG [t2] - run End 
+2018-03-24 20:06:59.878 DEBUG [t3] - load End 
+2018-03-24 20:06:59.878 DEBUG [t3] - run properties: {application_name=Fun Application1521936412671}1665434623 
+2018-03-24 20:06:59.879 DEBUG [t3] - run End 
+2018-03-24 20:06:59.880 DEBUG [main] - main End 
+2018-03-24 20:07:03.778 INFO  [t2 PropertiesCacheLoadThread] - loadData completed in x ms, data.hashCode 1666793977 
+2018-03-24 20:07:03.778 DEBUG [t2 PropertiesCacheLoadThread] - loadData End 
+2018-03-24 20:07:03.779 DEBUG [t2 PropertiesCacheLoadThread] - run End 
+2018-03-24 20:07:59.646 DEBUG [main] - main Begin 
+2018-03-24 20:07:59.648 DEBUG [t1] - run Begin 
+2018-03-24 20:07:59.649 DEBUG [t1] - load Begin 
+2018-03-24 20:07:59.650 DEBUG [t1] - load loadThread.join() 
+2018-03-24 20:07:59.650 DEBUG [t1 PropertiesCacheLoadThread] - run Begin 
+2018-03-24 20:07:59.650 DEBUG [t1 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-24 20:07:59.650 DEBUG [t1 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-24 20:08:04.651 INFO  [t1 PropertiesCacheLoadThread] - loadData completed in x ms, data.hashCode 1672232799 
+2018-03-24 20:08:04.652 DEBUG [t1 PropertiesCacheLoadThread] - loadData End 
+2018-03-24 20:08:04.653 DEBUG [t1 PropertiesCacheLoadThread] - run End 
+2018-03-24 20:08:04.653 DEBUG [t1] - load End 
+2018-03-24 20:08:04.654 DEBUG [t1] - run properties: {application_name=Fun Application1521936479650}1672232799 
+2018-03-24 20:08:04.654 DEBUG [t1] - run End 
+2018-03-24 20:08:05.753 DEBUG [t2] - run Begin 
+2018-03-24 20:08:05.754 DEBUG [t2] - isExpired c after loadCompleted 
+2018-03-24 20:08:05.754 DEBUG [t2] - isExpired true 
+2018-03-24 20:08:05.754 DEBUG [t2] - load Begin 
+2018-03-24 20:08:05.755 DEBUG [t2] - load loadThread.join(1000) 
+2018-03-24 20:08:05.755 DEBUG [t2 PropertiesCacheLoadThread] - run Begin 
+2018-03-24 20:08:05.755 DEBUG [t2 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-24 20:08:05.755 DEBUG [t2 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-24 20:08:05.853 DEBUG [t3] - run Begin 
+2018-03-24 20:08:05.855 DEBUG [t3] - isExpired c after loadCompleted 
+2018-03-24 20:08:05.855 DEBUG [t3] - isExpired true 
+2018-03-24 20:08:05.855 DEBUG [t3] - load Begin 
+2018-03-24 20:08:05.855 DEBUG [t3] - load loadThread.join(1000) 
+2018-03-24 20:08:06.757 DEBUG [t2] - load End 
+2018-03-24 20:08:06.758 DEBUG [t2] - run properties: {application_name=Fun Application1521936479650}1672232799 
+2018-03-24 20:08:06.758 DEBUG [t2] - run End 
+2018-03-24 20:08:06.856 DEBUG [t3] - load End 
+2018-03-24 20:08:06.857 DEBUG [t3] - run properties: {application_name=Fun Application1521936479650}1672232799 
+2018-03-24 20:08:06.857 DEBUG [t3] - run End 
+2018-03-24 20:08:06.858 DEBUG [main] - main End 
+2018-03-24 20:08:10.756 INFO  [t2 PropertiesCacheLoadThread] - loadData completed in x ms, data.hashCode 1673038090 
+2018-03-24 20:08:10.757 DEBUG [t2 PropertiesCacheLoadThread] - loadData End 
+2018-03-24 20:08:10.757 DEBUG [t2 PropertiesCacheLoadThread] - run End 
+2018-03-24 20:09:08.379 DEBUG [main] - main Begin 
+2018-03-24 20:09:08.382 DEBUG [t1] - run Begin 
+2018-03-24 20:09:08.383 DEBUG [t1] - load Begin 
+2018-03-24 20:09:08.384 DEBUG [t1] - load loadThread.join() 
+2018-03-24 20:09:08.384 DEBUG [t1 PropertiesCacheLoadThread] - run Begin 
+2018-03-24 20:09:08.384 DEBUG [t1 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-24 20:09:08.384 DEBUG [t1 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-24 20:09:13.386 INFO  [t1 PropertiesCacheLoadThread] - loadData completed in x ms, data.hashCode 1697010234 
+2018-03-24 20:09:13.386 DEBUG [t1 PropertiesCacheLoadThread] - loadData End 
+2018-03-24 20:09:13.387 DEBUG [t1 PropertiesCacheLoadThread] - run End 
+2018-03-24 20:09:13.387 DEBUG [t1] - load End 
+2018-03-24 20:09:13.388 DEBUG [t1] - run properties: {application_name=Fun Application1521936548384}1697010234 
+2018-03-24 20:09:13.388 DEBUG [t1] - run End 
+2018-03-24 20:09:14.484 DEBUG [t2] - run Begin 
+2018-03-24 20:09:14.486 DEBUG [t2] - isExpired c after loadCompleted 
+2018-03-24 20:09:14.486 DEBUG [t2] - isExpired true 
+2018-03-24 20:09:14.487 DEBUG [t2] - load Begin 
+2018-03-24 20:09:14.488 DEBUG [t2] - load loadThread.join(1000) 
+2018-03-24 20:09:14.488 DEBUG [t2 PropertiesCacheLoadThread] - run Begin 
+2018-03-24 20:09:14.489 DEBUG [t2 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-24 20:09:14.490 DEBUG [t2 PropertiesCacheLoadThread] - loadData about to sleep 5 secs 
+2018-03-24 20:09:14.589 DEBUG [t3] - run Begin 
+2018-03-24 20:09:14.590 DEBUG [t3] - isExpired c after loadCompleted 
+2018-03-24 20:09:14.591 DEBUG [t3] - isExpired true 
+2018-03-24 20:09:14.591 DEBUG [t3] - load Begin 
+2018-03-24 20:09:14.591 DEBUG [t3] - load loadThread.join(1000) 
+2018-03-24 20:09:15.489 DEBUG [t2] - load End 
+2018-03-24 20:09:15.489 DEBUG [t2] - run properties: {application_name=Fun Application1521936548384}1697010234 
+2018-03-24 20:09:15.490 DEBUG [t2] - run End 
+2018-03-24 20:09:15.592 DEBUG [t3] - load End 
+2018-03-24 20:09:15.593 DEBUG [t3] - run properties: {application_name=Fun Application1521936548384}1697010234 
+2018-03-24 20:09:15.593 DEBUG [t3] - run End 
+2018-03-24 20:09:15.593 DEBUG [main] - main End 
+2018-03-24 20:09:19.492 INFO  [t2 PropertiesCacheLoadThread] - loadData completed in x ms, data.hashCode 1697815579 
+2018-03-24 20:09:19.493 DEBUG [t2 PropertiesCacheLoadThread] - loadData End 
+2018-03-24 20:09:19.493 DEBUG [t2 PropertiesCacheLoadThread] - run End 
+2018-03-24 20:34:53.348 INFO  [main] - main Begin 
+2018-03-24 20:34:53.351 INFO  [t1] - run Begin 
+2018-03-24 20:34:53.352 INFO  [t1] - load Begin 
+2018-03-24 20:34:53.353 DEBUG [t1] - loadThread.join() 
+2018-03-24 20:34:53.353 INFO  [t1 PropertiesCacheLoadThread] - run Begin 
+2018-03-24 20:34:53.353 INFO  [t1 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-24 20:34:53.353 DEBUG [t1 PropertiesCacheLoadThread] - about to sleep 5 secs 
+2018-03-24 20:34:58.356 INFO  [t1 PropertiesCacheLoadThread] - completed in x ms, data.hashCode -960578359 
+2018-03-24 20:34:58.357 INFO  [t1 PropertiesCacheLoadThread] - loadData End 
+2018-03-24 20:34:58.357 INFO  [t1 PropertiesCacheLoadThread] - run End 
+2018-03-24 20:34:58.358 INFO  [t1] - load End 
+2018-03-24 20:34:58.358 DEBUG [t1] - properties: {application_name=Fun Application1521938093353}-960578359 
+2018-03-24 20:34:58.358 INFO  [t1] - run End 
+2018-03-24 20:34:59.453 INFO  [t2] - run Begin 
+2018-03-24 20:34:59.455 DEBUG [t2] - c after loadCompleted 
+2018-03-24 20:34:59.455 DEBUG [t2] - true 
+2018-03-24 20:34:59.455 INFO  [t2] - load Begin 
+2018-03-24 20:34:59.456 DEBUG [t2] - loadThread.join(1000) 
+2018-03-24 20:34:59.456 INFO  [t2 PropertiesCacheLoadThread] - run Begin 
+2018-03-24 20:34:59.456 INFO  [t2 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-24 20:34:59.456 DEBUG [t2 PropertiesCacheLoadThread] - about to sleep 5 secs 
+2018-03-24 20:34:59.558 INFO  [t3] - run Begin 
+2018-03-24 20:34:59.559 DEBUG [t3] - c after loadCompleted 
+2018-03-24 20:34:59.560 DEBUG [t3] - true 
+2018-03-24 20:34:59.560 INFO  [t3] - load Begin 
+2018-03-24 20:34:59.560 DEBUG [t3] - loadThread.join(1000) 
+2018-03-24 20:35:00.457 INFO  [t2] - load End 
+2018-03-24 20:35:00.457 DEBUG [t2] - properties: {application_name=Fun Application1521938093353}-960578359 
+2018-03-24 20:35:00.458 INFO  [t2] - run End 
+2018-03-24 20:35:00.563 INFO  [t3] - load End 
+2018-03-24 20:35:00.563 DEBUG [t3] - properties: {application_name=Fun Application1521938093353}-960578359 
+2018-03-24 20:35:00.564 INFO  [t3] - run End 
+2018-03-24 20:35:00.564 INFO  [main] - main End 
+2018-03-24 20:35:04.460 INFO  [t2 PropertiesCacheLoadThread] - completed in x ms, data.hashCode -961316149 
+2018-03-24 20:35:04.461 INFO  [t2 PropertiesCacheLoadThread] - loadData End 
+2018-03-24 20:35:04.461 INFO  [t2 PropertiesCacheLoadThread] - run End 
+2018-03-24 21:35:43.192 INFO  [main] - main Begin 
+2018-03-24 21:35:43.195 INFO  [t1] - run Begin 
+2018-03-24 21:35:43.196 INFO  [t1] - load Begin 
+2018-03-24 21:35:43.196 DEBUG [t1] - loadThread.join() 
+2018-03-24 21:35:43.196 INFO  [t1 PropertiesCacheLoadThread] - run Begin 
+2018-03-24 21:35:43.197 INFO  [t1 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-24 21:35:43.197 DEBUG [t1 PropertiesCacheLoadThread] - about to sleep 5 secs 
+2018-03-24 21:35:48.199 INFO  [t1 PropertiesCacheLoadThread] - completed in x ms, data.hashCode -940459353 
+2018-03-24 21:35:48.202 INFO  [t1 PropertiesCacheLoadThread] - loadData End 
+2018-03-24 21:35:48.202 INFO  [t1 PropertiesCacheLoadThread] - run End 
+2018-03-24 21:35:48.203 INFO  [t1] - load End 
+2018-03-24 21:35:48.203 DEBUG [t1] - properties: {application_name=Fun Application1521941743197}-940459353 
+2018-03-24 21:35:48.204 INFO  [t1] - run End 
+2018-03-24 21:35:49.298 INFO  [t2] - run Begin 
+2018-03-24 21:35:49.299 DEBUG [t2] - c after loadCompleted 
+2018-03-24 21:35:49.299 DEBUG [t2] - true 
+2018-03-24 21:35:49.300 INFO  [t2] - load Begin 
+2018-03-24 21:35:49.300 DEBUG [t2] - loadThread.join(1000) 
+2018-03-24 21:35:49.300 INFO  [t2 PropertiesCacheLoadThread] - run Begin 
+2018-03-24 21:35:49.302 INFO  [t2 PropertiesCacheLoadThread] - loadData Begin 
+2018-03-24 21:35:49.302 DEBUG [t2 PropertiesCacheLoadThread] - about to sleep 5 secs 
+2018-03-24 21:35:49.403 INFO  [t3] - run Begin 
+2018-03-24 21:35:49.404 DEBUG [t3] - c after loadCompleted 
+2018-03-24 21:35:49.404 DEBUG [t3] - true 
+2018-03-24 21:35:49.404 INFO  [t3] - load Begin 
+2018-03-24 21:35:49.404 DEBUG [t3] - loadThread.join(1000) 
+2018-03-24 21:35:50.301 INFO  [t2] - load End 
+2018-03-24 21:35:50.302 DEBUG [t2] - properties: {application_name=Fun Application1521941743197}-940459353 
+2018-03-24 21:35:50.302 INFO  [t2] - run End 
+2018-03-24 21:35:50.406 INFO  [t3] - load End 
+2018-03-24 21:35:50.407 DEBUG [t3] - properties: {application_name=Fun Application1521941743197}-940459353 
+2018-03-24 21:35:50.407 INFO  [t3] - run End 
+2018-03-24 21:35:50.408 INFO  [main] - main End 
+2018-03-24 21:35:54.306 INFO  [t2 PropertiesCacheLoadThread] - completed in x ms, data.hashCode -940410041 
+2018-03-24 21:35:54.306 INFO  [t2 PropertiesCacheLoadThread] - loadData End 
+2018-03-24 21:35:54.307 INFO  [t2 PropertiesCacheLoadThread] - run End 

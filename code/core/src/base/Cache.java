@@ -2,6 +2,9 @@ package base;
 
 import java.util.Calendar;
 
+import org.apache.logging.log4j.Level;
+
+import common.Constants;
 import common.Logger;
 
 public class Cache {
@@ -33,16 +36,16 @@ public class Cache {
 		boolean expired = false;
 		if (loadCompleted == null) {
 			expired = true;
-			Logger.logDebug("loadCompleted == null");	
+			Logger.log(Level.DEBUG, "loadCompleted == null");	
 		} else {
 			Calendar c = Calendar.getInstance();
 			c.add(cacheExpiresTimeUnit, - cacheExpiresTime);			
 			if (c.after(loadCompleted)) {
 				expired = true;
-				Logger.logDebug("c after loadCompleted");	
+				Logger.log(Level.DEBUG, "c after loadCompleted");	
 			}
 		}
-		Logger.logDebug("" + expired);	
+		Logger.log(Level.DEBUG, "" + expired);	
 		return expired;
 	}
 
@@ -62,7 +65,7 @@ public class Cache {
 				loadInProgress = true;
 			} else {
 				if (loadStarted.after(loadCompleted)) {
-					Logger.logDebug("started after completed");	
+					Logger.log(Level.DEBUG, "started after completed");	
 //					Calendar c = Calendar.getInstance();
 //					c.add(Calendar.MINUTE, - Constants.CACHE_ASSUME_LOAD_FAILED_MINUTES);
 //					if (c.after(loadStarted)) {
@@ -71,7 +74,7 @@ public class Cache {
 				}
 			}
 		}
-		Logger.logDebug("return: " + loadInProgress);	
+		Logger.log(Level.DEBUG, "return: " + loadInProgress);	
 		return loadInProgress;
 	}
 	

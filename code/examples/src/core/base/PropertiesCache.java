@@ -3,8 +3,10 @@ package core.base;
 import java.util.Calendar;
 import java.util.HashMap;
 
+import org.apache.logging.log4j.Level;
+
 import base.Cache;
-import base.Constants;
+import common.Constants;
 import common.Logger;
 
 public class PropertiesCache extends Cache {
@@ -46,7 +48,7 @@ public class PropertiesCache extends Cache {
 	}
 		
 	private void load(String loadThreadNamePrefix, Integer maximumWaitForLoadSeconds) {
-		Logger.logDebugBegin();	
+		Logger.logBegin();	
 
 		// Use double checked locking implementation to ensure only one loadThread will be running at a time
 		if (loadThread == null || !loadThread.isAlive()) {
@@ -61,32 +63,32 @@ public class PropertiesCache extends Cache {
 		// Irregardless if the current call to this load method started the loadThread, join on the active loadThread for the amount of time specified
 		try {
 			if (maximumWaitForLoadSeconds == null) {
-				Logger.logDebug("loadThread.join()");	
+				Logger.log(Level.DEBUG, "loadThread.join()");	
 				loadThread.join();
 			} else {
-				Logger.logDebug("loadThread.join(" + maximumWaitForLoadSeconds * 1000 + ")");	
+				Logger.log(Level.DEBUG, "loadThread.join(" + maximumWaitForLoadSeconds * 1000 + ")");	
 				loadThread.join(maximumWaitForLoadSeconds * 1000);
 			}
 		} catch (InterruptedException e) {
 		}
-		Logger.logDebugEnd();	
+		Logger.logEnd();	
 	}
 
 	public void loadData() {
-		Logger.logDebugBegin();	
+		Logger.logBegin();	
 		loadStarted();
 		HashMap<String, String> tempData = new HashMap<String, String>();
 		Calendar c = Calendar.getInstance();
 		tempData.put("application_name", "Fun Application" + c.getTimeInMillis());
 		try {
-			Logger.logDebug("about to sleep 5 secs");	
+			Logger.log(Level.DEBUG, "about to sleep 5 secs");	
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
 		}
 		data = tempData;
 		loadCompleted();
-		Logger.logInfo("completed in x ms, data.hashCode " + data.hashCode()); 
-		Logger.logDebugEnd();	
+		Logger.log("completed in x ms, data.hashCode " + data.hashCode()); 
+		Logger.logEnd();	
 	}	
 	
 	public String toString() {
