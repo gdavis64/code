@@ -4,14 +4,13 @@ import java.util.ArrayList;
 
 import common.Logger;
 //TODO Add a size limit to lopg file . When it got too big it had an issue uploading to git. Maybe see about ignoring it as well.
-//TODO Add error handling such as error(e)
 //TODO Any way to put more code as in propertiesCache into base code that can be extended?
 public class CacheTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		try {
 			Logger.logBegin();
-
+			
 			ArrayList<RequestThread> requestThreads = new ArrayList<>();
 			int i = 0;
 			for (int j = 1; j <= 1; j++) {
@@ -23,7 +22,7 @@ public class CacheTest {
 				//			Thread.sleep(2000);
 			}
 
-			Thread.sleep(6100);
+//			Thread.sleep(6100);
 
 			for (int j = 1; j <= 2; j++) {
 				i++;

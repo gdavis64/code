@@ -23,6 +23,7 @@ public class Logger {
 		} else if (e instanceof Throwable) {
 			Logger.log(Level.ERROR, "Throwable: " + Common.formatException(e));
 		}
+		e.printStackTrace();
 	}
 	
 	public static void logBegin() {
