@@ -9,6 +9,7 @@ public class Test {
 	
 		try {
 			Logger.logBegin();
+			
 			Stopwatch stopwatch = new Stopwatch();
 			Thread.sleep(150);
 			stopwatch.recordInterval("First");
