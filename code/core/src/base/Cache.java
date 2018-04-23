@@ -7,7 +7,11 @@ import org.apache.logging.log4j.Level;
 import common.Constants;
 import common.Logger;
 
-public class Cache {
+/* Cache is a base class intended to be extended
+ * 
+ * 
+ */
+public abstract class Cache {
 
 	public Cache(int cacheExpiresTimeUnit, int cacheExpiresTime, int maximumRequestWaitForReloadWhenExpiredSeconds) {
 		this.cacheExpiresTimeUnit = cacheExpiresTimeUnit;
@@ -19,6 +23,8 @@ public class Cache {
 		this(Constants.CACHE_EXPIRES_TIME, Constants.CACHE_EXPIRES_TIME_UNIT, Constants.CACHE_MAXIMUM_REQUEST_WAIT_FOR_RELOAD_WHEN_EXPIRED_SECONDS);
 	}
 
+	public abstract Object getData(String loadThreadNamePrefix, Integer maximumWaitForLoadSeconds);
+	
 	// Used to indicate that extended classes need to refresh their data 
 	private static Calendar forceReloadRequested;
 

@@ -3,7 +3,7 @@ package core.base;
 import java.util.ArrayList;
 
 import common.Logger;
-//TODO Add a size limit to lopg file . When it got too big it had an issue uploading to git. Maybe see about ignoring it as well.
+//TODO Add a size limit to lopg file . When it got too big it had an issue uploading to git. 
 //TODO Any way to put more code as in propertiesCache into base code that can be extended?
 public class CacheTest {
 

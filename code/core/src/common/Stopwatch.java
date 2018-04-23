@@ -21,6 +21,7 @@ public class Stopwatch {
 	private Instant started = null;	
 	private Instant stopped = null;
 
+	// Inner class
 	private class Interval {
 		public Interval(String label) {
 			this.label = label;
