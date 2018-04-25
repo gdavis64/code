@@ -2002,3 +2002,13 @@ round 4 [4 4 2 0] [2 6 7 0] [1 3 5 0]
 round 5 [3 9 5 0] [2 4 6 0] [1 5 11 0] 
 round 6 [5 7 8 0] [1 3 11 0] [2 4 6 0]  
 2018-04-22 22:00:24.211 INFO  [main] - End 
+2018-04-22 22:03:39.983 INFO  [main] - Begin 
+2018-04-22 22:03:39.986 INFO  [main] - Players: 11 Groups: 3 Rounds: 6 Min times: 1 Max times: 3 Min players per group: 3 Max attempts: 10000 
+2018-04-22 22:03:39.986 INFO  [main] - 
+Round 1 [1 6 7 0] [2 3 5 0] [4 8 9 0] 
+Round 2 [2 4 5 0] [3 6 9 0] [1 11 1 0] 
+Round 3 [8 11 6 0] [1 4 5 0] [2 3 7 0] 
+Round 4 [5 8 10 0] [1 2 4 0] [3 7 11 0] 
+Round 5 [3 4 6 0] [9 4 9 0] [1 2 5 0] 
+Round 6 [1 4 7 0] [2 5 6 0] [3 2 7 0]  
+2018-04-22 22:03:39.987 INFO  [main] - End 
