@@ -2012,3 +2012,39 @@ Round 4 [5 8 10 0] [1 2 4 0] [3 7 11 0]
 Round 5 [3 4 6 0] [9 4 9 0] [1 2 5 0] 
 Round 6 [1 4 7 0] [2 5 6 0] [3 2 7 0]  
 2018-04-22 22:03:39.987 INFO  [main] - End 
+2018-04-30 19:32:52.611 ERROR [main] - Exception: java.lang.ArrayIndexOutOfBoundsException: 4 at golf.Pairings.main(Pairings.java:50) 
+2018-08-10 22:02:12.053 ERROR [main] - Exception: java.lang.ArrayIndexOutOfBoundsException: 2 at golf.Pairings.main(Pairings.java:47) 
+2018-08-10 22:03:00.414 ERROR [main] - Exception: java.lang.NullPointerException at golf.Pairings.validPairings(Pairings.java:135) at golf.Pairings.main(Pairings.java:78) 
+2019-03-15 19:14:24.127 INFO  [main] - main Begin 
+2019-03-15 19:14:24.131 INFO  [main] - Customer[id: 0 firstName: Greg lastName: Davis 
+2019-03-15 19:14:24.131 INFO  [main] - main End 
+2019-03-15 19:15:14.990 INFO  [main] - main Begin 
+2019-03-15 19:15:14.994 INFO  [main] - Customer[id: 0 firstName: Greg lastName: Davis] 
+2019-03-15 19:15:14.994 INFO  [main] - main End 
+2019-03-15 19:17:39.916 INFO  [main] - main Begin 
+2019-03-15 19:17:39.920 INFO  [main] - Customer [id: 0 firstName: Greg lastName: Davis] 
+2019-03-15 19:17:39.920 INFO  [main] - main End 
+2019-03-15 20:07:23.752 INFO  [main] - main Begin 
+2019-03-15 20:07:23.756 INFO  [main] - Customer [id: 1 firstName: Greg lastName: Davis] 
+2019-03-15 20:07:23.756 INFO  [main] - main End 
+2019-03-15 20:20:47.639 INFO  [main] - main Begin 
+2019-03-15 20:20:47.644 INFO  [main] - Customer [id: 1 firstName: Greg lastName: Davis] 
+2019-03-15 20:20:47.644 INFO  [main] - main End 
+2019-03-15 20:21:36.140 INFO  [main] - main Begin 
+2019-03-15 20:21:36.144 INFO  [main] - Customer [id: 1 firstName: Greg lastName: Davis] 
+2019-03-15 20:21:36.145 INFO  [main] - main End 
+2019-03-15 20:23:28.276 INFO  [main] - main Begin 
+2019-03-15 20:23:28.281 INFO  [main] - Customer [id: 1 firstName: Greg lastName: Davis] 
+2019-03-15 20:23:28.281 INFO  [main] - main End 
+2019-03-15 20:24:11.742 INFO  [main] - main Begin 
+2019-03-15 20:24:11.746 INFO  [main] - Customer [id: 1 firstName: Greg lastName: Davis] 
+2019-03-15 20:24:11.746 INFO  [main] - main End 
+2019-03-15 20:39:11.383 INFO  [main] - main Begin 
+2019-03-15 20:39:11.386 INFO  [main] - Customer [id: 1 firstName: Greg lastName: Davis] 
+2019-03-15 20:39:11.386 INFO  [main] - main End 
+2019-03-15 20:46:06.247 INFO  [main] - main Begin 
+2019-03-15 20:46:06.251 INFO  [main] - Customer [id: 1 firstName: Greg lastName: Davis] 
+2019-03-15 20:46:06.251 INFO  [main] - main End 
+2019-03-15 20:50:18.509 INFO  [main] - main Begin 
+2019-03-15 20:50:18.514 INFO  [main] - Customer [id: 1 firstName: Greg lastName: Davis] 
+2019-03-15 20:50:18.514 INFO  [main] - main End 

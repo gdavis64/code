@@ -77,7 +77,7 @@ public class PropertiesCache extends Cache {
 	public void loadData() {
 		Logger.logBegin();	
 		loadStarted();
-		HashMap<String, String> tempData = new HashMap<String, String>();
+		HashMap<String, String> tempData = new HashMap<>();
 		Calendar c = Calendar.getInstance();
 		tempData.put("application_name", "Fun Application" + c.getTimeInMillis());
 		try {
